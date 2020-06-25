@@ -6,7 +6,8 @@ body {
 
 .navbar {
     background-color: #1d74b3;
-    color: white;
+    color: white;    
+    height: 56px;
 }
 
 .navbar-header img {
@@ -28,7 +29,7 @@ body {
     color: white;
 }
 
-ul li {
+ul li{
     height: 56px;
     margin: 0 auto;
 }
@@ -178,21 +179,21 @@ section.update-data-pemilih {
     .navbar{
         padding: 0 0 0 16px;
     }
-    .name {
+    .name, .navbar .log-in {
         background-color: #0063aa;
     }
     .log-out {
         background-color: #00538e;
     }
     .name,
-    .log-out {
+    .log-out, .navbar .log-in{
         padding: 15px 25px;
     }
     .update-data-pemilih .kotak {
         width: 130px;
         height: 130px;
     }
-    
+
     .ketua1 h2, .ketua2 h2, .update-data-pemilih h2 , .selamat h2{
         font-size: 35px;
     }
