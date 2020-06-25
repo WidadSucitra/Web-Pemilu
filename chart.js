@@ -10,15 +10,14 @@ var chart = new Chart(ctx, {
         datasets: [{
             label: 'My First dataset',
             backgroundColor: 'transparent',
-            borderColor: 'rgb(243, 35, 35)',
-            data: [0, 10, 5, 2, 20, 30, 45]
+            borderColor: 'black',
+            data: [4, 7, 11, 15, 20, 21, 24]
+        },{
+            label: 'My Second dataset',
+            backgroundColor: 'transparent',
+            borderColor: '#6397BD',
+            data: [3, 6, 9, 12, 15, 19, 21]
         }]
-    },
-    // Configuration options go here
-    options: {
-        tooltips: {
-            mode: 'nearest'
-        }
     }
 });
 
@@ -36,8 +35,13 @@ var chart = new Chart(ctx, {
         datasets: [{
             label: 'My First dataset',
             backgroundColor: 'transparent',
-            borderColor: 'rgb(243, 35, 35)',
-            data: [0, 10, 5, 2, 20, 30, 45]
+            borderColor: 'black',
+            data: [4, 7, 11, 15, 20, 21, 24]
+        },{
+            label: 'My Second dataset',
+            backgroundColor: 'transparent',
+            borderColor: '#6397BD',
+            data: [3, 6, 9, 12, 15, 19, 21]
         }]
     },
     // Configuration options go here

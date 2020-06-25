@@ -6,7 +6,8 @@ body {
 
 .navbar {
     background-color: #1d74b3;
-    color: white;
+    color: white;    
+    height: 56px;
 }
 
 .navbar-header img {
@@ -28,7 +29,7 @@ body {
     color: white;
 }
 
-ul li {
+ul li{
     height: 56px;
     margin: 0 auto;
 }
@@ -114,7 +115,7 @@ h1 {
     border-radius: 15px;
 }
 
-section.ketua1 .container {
+section{
     margin-top: 100px;
 }
 
@@ -122,33 +123,86 @@ section.update-data-pemilih {
     margin: 50px auto;
 }
 
-.ketua1 h2,
-.ketua2 h2,
-.update-data-pemilih h2 {
+.ketua1 h2,.ketua2 h2,.update-data-pemilih h2, .selamat h2{
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
-@media screen and (min-width: 800px) {
-    .navbar {
+.selamat{
+    margin-bottom: 100px;
+}
+
+.selamat .foto1, .selamat .foto2{
+    width: 100px;
+    height: 100px;
+    margin: 0 5%;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.selamat .foto1{
+    background-color: #b5b5b5;
+}
+
+.selamat .foto2{
+    background-color: #6397bd;
+}
+
+.selamat img{
+    height: 80%;
+    margin: 0 15%;
+    padding: 10px;
+}
+
+.selamat p{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.selamat .ket-foto{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5%;
+}
+
+.selamat .ket-foto p{
+    color: black;
+    padding: 0;
+}
+
+
+
+@media screen and (min-width: 800px){
+    .navbar{
         padding: 0 0 0 16px;
     }
-    .name {
+    .name, .navbar .log-in {
         background-color: #0063aa;
     }
     .log-out {
         background-color: #00538e;
     }
     .name,
-    .log-out {
+    .log-out, .navbar .log-in{
         padding: 15px 25px;
     }
     .update-data-pemilih .kotak {
         width: 130px;
         height: 130px;
     }
-    .ketua1 h2,
-    .ketua2 h2,
-    .update-data-pemilih h2 {
+
+    .ketua1 h2, .ketua2 h2, .update-data-pemilih h2 , .selamat h2{
         font-size: 35px;
+    }
+    .selamat p{
+        font-size: small;
+    }
+    .selamat .foto1, .selamat .foto2, .selamat .ket-foto{
+        width: 190px;
+        height: 190px;
+        margin: 5 10%;
     }
 }
