@@ -1,18 +1,112 @@
-body{
+body {
     background-color: #dddddd
 }
 
 /* STYLE NAVBAR */
-.navbar{
+
+.navbar {
     background-color: #1d74b3;
     color: white;
 }
-ul li{
+
+.navbar-header img {
+    padding-right: -10px;
+    margin-left: -15px;
+    padding-bottom: 8px;
+}
+
+.navbar-header {
+    font-size: 15px;
+    color: #fefefe;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+
+.log-in {
+    padding-top: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+ul li {
     height: 56px;
     margin: 0 auto;
 }
 
-.update-data-pemilih .kotak{
+
+/* FORM REGIS */
+
+h1 {
+    color: #0E5180;
+    font-family: "";
+}
+
+.icon-kandidat {
+    margin: 100px;
+    margin-right: 20px;
+    margin-top: 130px;
+}
+
+.icon-kandidat .who {
+    margin-bottom: -25px;
+    margin-left: 35px;
+}
+
+.icon-kandidat .next {
+    margin-top: -80px;
+    margin-left: 130px;
+}
+
+.registrasi-container {
+    height: 100vh;
+    width: 100%;
+    margin-left: 200px;
+    margin-top: -30px;
+}
+
+.regis-form {
+    max-width: 100%;
+    width: 460px;
+    padding: 10px;
+    margin: auto;
+}
+
+.regis-form legend {
+    font-size: 20px;
+    margin-bottom: -13px;
+}
+
+.regis-form button {
+    background-color: #0E5180;
+    border-color: #0E5180;
+    border-radius: 10px;
+}
+
+
+/* FORM LOGIN */
+
+.login-container {
+    height: 90vh;
+    width: 100%;
+}
+
+.login-form {
+    max-width: 100%;
+    width: 450px;
+    padding: 10px;
+    margin: auto;
+}
+
+.login-form button {
+    padding-top: 10px;
+    margin-top: 10px;
+    width: 100px;
+    background-color: #0E5180;
+    border-color: #0E5180;
+    border-radius: 10px;
+}
+
+.update-data-pemilih .kotak {
     background-color: #b5b5b5;
     width: 75px;
     height: 75px;
@@ -20,37 +114,41 @@ ul li{
     border-radius: 15px;
 }
 
-section.ketua1 .container{
+section.ketua1 .container {
     margin-top: 100px;
 }
 
-section.update-data-pemilih{
+section.update-data-pemilih {
     margin: 50px auto;
 }
 
-.ketua1 h2,.ketua2 h2,.update-data-pemilih h2{
+.ketua1 h2,
+.ketua2 h2,
+.update-data-pemilih h2 {
     font-size: 20px;
 }
 
-
-@media screen and (min-width: 800px){
-    .navbar{
+@media screen and (min-width: 800px) {
+    .navbar {
         padding: 0 0 0 16px;
     }
-    .name{
+    .name {
         background-color: #0063aa;
     }
-    .log-out{
+    .log-out {
         background-color: #00538e;
     }
-    .name,.log-out{
+    .name,
+    .log-out {
         padding: 15px 25px;
     }
-    .update-data-pemilih .kotak{
+    .update-data-pemilih .kotak {
         width: 130px;
         height: 130px;
     }
-    .ketua1 h2, .ketua2 h2, .update-data-pemilih h2{
+    .ketua1 h2,
+    .ketua2 h2,
+    .update-data-pemilih h2 {
         font-size: 35px;
     }
 }
