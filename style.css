@@ -11,20 +11,20 @@ body {
 }
 
 .navbar-header img {
-    padding-right: -10px;
+    height: 40px; 
+    margin-top: 5px;
     margin-left: -15px;
     padding-bottom: 8px;
     color: white;
 }
 
 .navbar-header a {
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .navbar-header {
-    font-size: 15px;
+    font-size: 10px;
     color: #fefefe;
-    padding-top: 3px;
     padding-left: 10px;
 }
 
@@ -391,6 +391,19 @@ section.update-data-pemilih {
 
 
 @media screen and (min-width: 760px) and (max-width: 1000px){
+    .navbar-header img {
+        height: 40px; 
+        margin: 0 0 0 -15px;
+        padding-bottom: 0;
+    }
+
+    .navbar-header a {
+        margin-left: 10px;
+    }
+
+    .navbar-header {
+        font-size: 15px;
+    }    
     .ketua1 h2, .ketua2 h2, .update-data-pemilih h2 , .selamat h2, .update h2{
         font-size: 25px;
     }
@@ -430,6 +443,20 @@ section.update-data-pemilih {
     .navbar{
         padding: 0 0 0 16px;
     }
+    .navbar-header img {
+        height: 40px; 
+        margin: 0 0 0 -15px;
+        padding-bottom: 0;
+    }
+
+    .navbar-header a {
+        line-height: 56px;
+        margin-left: 10px;
+    }
+
+    .navbar-header {
+        font-size: 15px;
+    }    
     .name, .navbar .log-in {
         background-color: #0063aa;
     }
