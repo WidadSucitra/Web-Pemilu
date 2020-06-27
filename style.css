@@ -2,90 +2,95 @@ body {
     background-color: #dddddd
 }
 
+
 /* STYLE NAVBAR */
 
 .navbar {
-    background-color: #1d74b3;
-    color: white;    
-    height: 56px;
-}
-
-.navbar-header img {
-    height: 40px; 
-    margin-top: 5px;
-    margin-left: -15px;
-    padding-bottom: 8px;
-    color: white;
-}
-
-.navbar-header a {
-    margin-left: 5px;
-}
-
-.navbar-header {
-    font-size: 10px;
+    background: #1d74b3;
     color: #fefefe;
-    padding-left: 10px;
+}
+
+.navbar a {
+    font-size: 15px;
+    padding-left: 5px;
 }
 
 .log-in {
     padding-top: 15px;
     padding-right: 15px;
-    color: white;
 }
 
-ul li{
+ul li {
     height: 56px;
     margin: 0 auto;
+    padding: 0 0 0 16px;
 }
 
 
 /* FORM REGIS */
 
-h1 {
-    color: #0E5180;
-    font-family: "";
+.regis-form .container {
+    padding-top: 10vh;
+    justify-content: center;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    max-width: 100%;
+    margin-bottom: 10vh;
 }
 
 .icon-kandidat {
-    margin: 100px;
-    margin-right: 20px;
-    margin-top: 130px;
+    margin-left: 20vh;
+}
+
+.icon-kandidat img {
+    margin-top: 15vh;
+    margin-right: 19vh;
+    width: 200px;
+}
+
+.icon-kandidat h1 {
+    font-family: sans-serif;
+    color: #0E5180;
 }
 
 .icon-kandidat .who {
-    margin-bottom: -25px;
-    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: -120px;
+    margin-left: 40px;
+    font-size: 30px;
 }
 
 .icon-kandidat .next {
-    margin-top: -80px;
-    margin-left: 130px;
+    margin-top: -60px;
+    margin-left: 110px;
+    font-size: 30px;
 }
 
-.registrasi-container {
-    height: 100vh;
-    width: 100%;
-    margin-left: 200px;
-    margin-top: -30px;
+.regis-form-group {
+    margin-right: 10px;
 }
 
-.regis-form {
-    max-width: 100%;
-    width: 460px;
-    padding: 10px;
-    margin: auto;
+.form-group {
+    justify-content: center;
+    width: 40vh;
+    margin-bottom: 1vh;
 }
 
-.regis-form legend {
-    font-size: 20px;
-    margin-bottom: -13px;
+.regis-form-group legend {
+    text-align: center;
+    font-size: 16px;
 }
 
-.regis-form button {
-    background-color: #0E5180;
-    border-color: #0E5180;
-    border-radius: 10px;
+.form-group label {
+    font-size: 15px;
+}
+
+.form-group button {
+    background-color: #00538e;
+    font-size: 15px;
+    margin-top: 10px;
 }
 
 
@@ -98,7 +103,7 @@ h1 {
 
 .login-form {
     max-width: 100%;
-    width: 450px;
+    width: 350px;
     padding: 10px;
     margin: auto;
 }
@@ -120,13 +125,12 @@ h1 {
     border-radius: 15px;
 }
 
-.update-data-pemilih p{
+.update-data-pemilih p {
     font-weight: bold;
     font-size: 17px;
 }
 
-
-section{
+section {
     margin-top: 100px;
 }
 
@@ -134,16 +138,21 @@ section.update-data-pemilih {
     margin: 50px auto;
 }
 
-.ketua1 h2,.ketua2 h2,.update-data-pemilih h2, .selamat h2{
+.ketua1 h2,
+.ketua2 h2,
+.update-data-pemilih h2,
+.selamat h2 {
     font-size: 20px;
     margin: 0;
 }
 
-.selamat{
+.selamat {
     margin-bottom: 100px;
 }
 
-.selamat .foto1, .selamat .foto2, .selamat .topik-ketum{
+.selamat .foto1,
+.selamat .foto2,
+.selamat .topik-ketum {
     width: 100px;
     height: 100px;
     margin: 0 5%;
@@ -151,66 +160,65 @@ section.update-data-pemilih {
     box-sizing: border-box;
 }
 
-.selamat .foto1{
+.selamat .foto1 {
     background-color: #b5b5b5;
 }
 
-.selamat .foto2{
+.selamat .foto2 {
     background-color: #6397bd;
 }
 
-.selamat img{
+.selamat img {
     height: 80%;
     margin: 0 15%;
     padding: 10px;
 }
 
-.selamat p{
+.selamat p {
     color: white;
     text-align: center;
     font-weight: bold;
     font-size: 10px;
 }
 
-.selamat .ket-foto{
+.selamat .ket-foto {
     display: inline-block;
     width: 100px;
     height: 100px;
     margin: 5px 5%;
 }
 
-.selamat .ket-foto p{
+.selamat .ket-foto p {
     color: black;
     padding: 0;
 }
 
 
-
 /*Menu Pemilihan Utama*/
 
-
-.menu-pilihan h2{
+.menu-pilihan h2 {
     font-size: 20px;
     margin-bottom: 20px;
 }
 
-.menu-pilihan{
+.menu-pilihan {
     margin-bottom: 100px;
-    margin-top : 0.5%;
+    margin-top: 0.5%;
     margin-left: 0.5%;
     margin-right: 0.5%;
-    width : 100%;
+    width: 100%;
     padding: 0;
 }
 
-.menu-pilihan a{
+.menu-pilihan a {
     width: 50%;
     height: 400px;
     border-radius: 5px;
     box-sizing: border-box;
 }
 
-.menu-pilihan .foto1, .menu-pilihan .foto2{
+.menu-pilihan .foto1,
+.menu-pilihan .foto2 {
     width: 100%;
     height: 400px;
     border-radius: 5px;
@@ -218,47 +226,46 @@ section.update-data-pemilih {
     text-align: center;
 }
 
-.menu-pilihan img{
+.menu-pilihan img {
     height: 45%;
     margin-top: 60px;
     margin-bottom: 20px;
 }
 
-.menu-pilihan p{
+.menu-pilihan p {
     color: #6397bd;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
     margin: 0;
-    
 }
 
-.menu-pilihan .ket-foto{
+.menu-pilihan .ket-foto {
     display: inline-block;
     width: 100px;
     height: 100px;
     margin: 5px 5%;
 }
 
-.menu-pilihan .ket-foto p{
+.menu-pilihan .ket-foto p {
     color: black;
     padding: 20;
 }
 
-
-.update h2{
+.update h2 {
     font-size: 15px;
     margin: 0 auto;
 }
 
-.update .foto-update,.update .chart-update{
+.update .foto-update,
+.update .chart-update {
     display: block;
     margin-top: 50px;
     width: 100%;
 }
 
-
-.update .foto1, .update .foto2{
+.update .foto1,
+.update .foto2 {
     width: 100px;
     height: 100px;
     border-radius: 15px;
@@ -268,28 +275,29 @@ section.update-data-pemilih {
     margin: 0 9%;
 }
 
-.update .foto1{
+.update .foto1 {
     background-color: #b5b5b5;
 }
 
-.update .foto2{
+.update .foto2 {
     background-color: #6397bd;
 }
 
-.update img{
+.update img {
     height: 80%;
     margin: 0 15%;
     padding: auto;
 }
 
-.update p{
+.update p {
     color: white;
     text-align: center;
     font-weight: bold;
     font-size: 5px;
 }
 
-.update .foto1 h1, .update .foto2 h1{
+.update .foto1 h1,
+.update .foto2 h1 {
     color: white;
     position: absolute;
     font-family: sans-serif;
@@ -299,22 +307,19 @@ section.update-data-pemilih {
 }
 
 
-
-
-
-
 /*Menu Pemilihan Ketum*/
 
-.pilih-ketum{
+.pilih-ketum {
     margin-bottom: 100px;
-    margin-top : 20px;
+    margin-top: 20px;
     margin-left: 0.5%;
     margin-right: 0.5%;
-    width : 100%;
+    width: 100%;
     padding: 0;
 }
 
-.pilih-ketum .foto1, .pilih-ketum .foto2{
+.pilih-ketum .foto1,
+.pilih-ketum .foto2 {
     width: 400px;
     height: 400px;
     margin: 0 1%;
@@ -322,7 +327,7 @@ section.update-data-pemilih {
     box-sizing: border-box;
 }
 
-.pilih-ketum .topik-ketum{
+.pilih-ketum .topik-ketum {
     width: 300px;
     height: 400px;
     margin: 0 1%;
@@ -330,12 +335,13 @@ section.update-data-pemilih {
     box-sizing: border-box;
 }
 
-.pilih-ketum .foto1, .pilih-ketum .foto2, .pilih-ketum .topik-ketum{
+.pilih-ketum .foto1,
+.pilih-ketum .foto2,
+.pilih-ketum .topik-ketum {
     background-color: #b5b5b5;
 }
 
-
-.pilih-ketum img{
+.pilih-ketum img {
     height: 60%;
     margin: 0 25%;
     padding: 10px;
@@ -343,7 +349,8 @@ section.update-data-pemilih {
     margin-top: 50px;
 }
 
-.pilih-ketum .foto1 p, .pilih-ketum .foto2 p{
+.pilih-ketum .foto1 p,
+.pilih-ketum .foto2 p {
     color: #6397bd;
     text-align: center;
     font-weight: bold;
@@ -351,7 +358,7 @@ section.update-data-pemilih {
     margin-top: 15px;
 }
 
-.pilih-ketum .topik-ketum p{
+.pilih-ketum .topik-ketum p {
     color: #6397bd;
     text-align: center;
     font-weight: bold;
@@ -359,19 +366,19 @@ section.update-data-pemilih {
     margin-top: 145px;
 }
 
-.pilih-ketum .ket-foto{
+.pilih-ketum .ket-foto {
     display: inline-block;
     width: 100px;
     height: 100px;
     margin: 5px 5%;
 }
 
-.pilih-ketum .ket-foto p{
+.pilih-ketum .ket-foto p {
     color: black;
     padding: 0;
 }
 
-.pilih-ketum .foto1 .nomor1{
+.pilih-ketum .foto1 .nomor1 {
     position: absolute;
     top: 10px;
     left: 260px;
@@ -379,7 +386,7 @@ section.update-data-pemilih {
     margin-left: 45px;
 }
 
-.pilih-ketum .foto2 .nomor2{
+.pilih-ketum .foto2 .nomor2 {
     position: absolute;
     top: 10px;
     right: 435px;
@@ -387,127 +394,185 @@ section.update-data-pemilih {
     margin-left: 45px;
 }
 
-
-
-
-@media screen and (min-width: 760px) and (max-width: 1000px){
+@media screen and (min-width: 760px) and (max-width: 1000px) {
     .navbar-header img {
-        height: 40px; 
+        height: 40px;
         margin: 0 0 0 -15px;
         padding-bottom: 0;
     }
-
     .navbar-header a {
         margin-left: 10px;
     }
-
     .navbar-header {
         font-size: 15px;
-    }    
-    .ketua1 h2, .ketua2 h2, .update-data-pemilih h2 , .selamat h2, .update h2{
+    }
+    .ketua1 h2,
+    .ketua2 h2,
+    .update-data-pemilih h2,
+    .selamat h2,
+    .update h2 {
         font-size: 25px;
     }
-    .selamat p,.update p{
+    .selamat p,
+    .update p {
         font-size: 10px;
     }
-    .selamat .foto1, .selamat .foto2, .selamat .ket-foto{
+    .selamat .foto1,
+    .selamat .foto2,
+    .selamat .ket-foto {
         width: 190px;
         height: 190px;
         margin: 5 10%;
     }
-    .update .foto1, .update .foto2{
+    .update .foto1,
+    .update .foto2 {
         width: 110px;
         height: 110px;
         padding-top: 10px;
     }
-
-    .update .foto-update,.update .chart-update{
+    .update .foto-update,
+    .update .chart-update {
         display: inline-block;
     }
-    .update .foto-update{
+    .update .foto-update {
         width: 20%;
     }
-
-    .update .chart-update{
+    .update .chart-update {
         width: 70%;
     }
-    .update .foto1, .update .foto2{
+    .update .foto1,
+    .update .foto2 {
         width: 100px;
         height: 100px;
         display: block;
         margin-top: 20px;
     }
+    .regis-form {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1vh;
+    }
+    .regis-form-group legend {
+        font-size: 20px;
+        margin-top: 5vh;
+        text-align: center;
+        margin-left: 7vh;
+    }
+    .form-group {
+        justify-content: center;
+        padding: 1px;
+        width: 60vh;
+        border-radius: 24px;
+        margin-left: 15vh;
+    }
+    .form-group label {
+        font-size: 17px;
+    }
+    .regis-form-group button {
+        margin-left: 15vh;
+        margin-top: 10px;
+        font-size: 17px;
+        background-color: #00538e;
+    }
+    .icon-kandidat img {
+        width: 250px;
+        margin-top: 8vh;
+        justify-content: center;
+    }
+    .icon-kandidat h1 {
+        font-family: sans-serif;
+        color: #0E5180;
+    }
+    .icon-kandidat .who {
+        margin-left: 4vh;
+        margin-top: 7vh;
+        margin-bottom: -11vh;
+        font-size: 45px;
+    }
+    .icon-kandidat .next {
+        margin-top: -85px;
+        margin-left: 120px;
+        font-size: 45px;
+        margin-bottom: 5vh;
+    }
 }
 
-@media screen and (min-width: 1001px){
-    .navbar{
+@media screen and (min-width: 1001px) {
+    .navbar {
         padding: 0 0 0 16px;
     }
     .navbar-header img {
-        height: 40px; 
+        height: 40px;
         margin: 0 0 0 -15px;
         padding-bottom: 0;
     }
-
     .navbar-header a {
         line-height: 56px;
         margin-left: 10px;
     }
-
     .navbar-header {
         font-size: 15px;
-    }    
-    .name, .navbar .log-in {
+    }
+    .name,
+    .navbar .log-in {
         background-color: #0063aa;
     }
     .log-out {
         background-color: #00538e;
     }
     .name,
-    .log-out, .navbar .log-in{
+    .log-out,
+    .navbar .log-in {
         padding: 15px 25px;
     }
     .update-data-pemilih .kotak {
         width: 130px;
         height: 130px;
     }
-
-    .ketua1 h2, .ketua2 h2, .update-data-pemilih h2 , .selamat h2, .update h2{
+    .ketua1 h2,
+    .ketua2 h2,
+    .update-data-pemilih h2,
+    .selamat h2,
+    .update h2 {
         font-size: 35px;
     }
-    .selamat p,.update p{
+    .selamat p,
+    .update p {
         font-size: small;
     }
-    .selamat .foto1, .selamat .foto2, .selamat .ket-foto{
+    .selamat .foto1,
+    .selamat .foto2,
+    .selamat .ket-foto {
         width: 190px;
         height: 190px;
         margin: 5 10%;
     }
-
-    .update .foto1, .update .foto2{
+    .update .foto1,
+    .update .foto2 {
         width: 150px;
         height: 150px;
         padding-top: 10px;
         display: block;
         margin-top: 20px;
     }
-
-    .update .foto-update,.update .chart-update{
+    .update .foto-update,
+    .update .chart-update {
         display: inline-block;
     }
-    .update .foto-update{
+    .update .foto-update {
         width: 20%;
     }
-
-    .update .chart-update{
+    .update .chart-update {
         width: 70%;
     }
-    .update .foto1 h1, .update .foto2 h1{
+    .update .foto1 h1,
+    .update .foto2 h1 {
         font-size: 100px;
     }
-    
+    .login-form {
+        max-width: 100%;
+        width: 450px;
+        padding: 10px;
+        margin: auto;
+    }
 }
-
-
-
-    
