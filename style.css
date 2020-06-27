@@ -2,90 +2,90 @@ body {
     background-color: #dddddd
 }
 
-
 /* STYLE NAVBAR */
 
 .navbar {
-    background: #1d74b3;
-    color: #fefefe;
+    background-color: #1d74b3;
+    color: white;    
+    height: 56px;
 }
 
-.navbar a {
+.navbar-header img {
+    padding-right: -10px;
+    margin-left: -15px;
+    padding-bottom: 8px;
+    color: white;
+}
+
+.navbar-header a {
+    margin-left: 10px;
+}
+
+.navbar-header {
     font-size: 15px;
-    padding-left: 5px;
+    color: #fefefe;
+    padding-top: 3px;
+    padding-left: 10px;
 }
 
 .log-in {
     padding-top: 15px;
     padding-right: 15px;
+    color: white;
 }
 
-ul li {
+ul li{
     height: 56px;
     margin: 0 auto;
-    padding: 0 0 0 16px;
 }
 
 
 /* FORM REGIS */
 
-.regis-form .container {
-    padding-top: 10vh;
-    justify-content: center;
-    margin-top: 10vh;
-    display: flex;
-    max-width: 100%;
-    margin-bottom: 10vh;
+h1 {
+    color: #0E5180;
+    font-family: "";
 }
 
 .icon-kandidat {
-    margin-right: -10vh;
-    margin-left: 20px;
-}
-
-.icon-kandidat img {
-    margin-top: 15vh;
-    margin-right: 19vh;
-    width: 200px;
-}
-
-.icon-kandidat h1 {
-    font-family: sans-serif;
-    color: #0E5180;
+    margin: 100px;
+    margin-right: 20px;
+    margin-top: 130px;
 }
 
 .icon-kandidat .who {
-    margin-top: 20px;
-    margin-bottom: -120px;
-    margin-left: 40px;
-    font-size: 30px;
+    margin-bottom: -25px;
+    margin-left: 35px;
 }
 
 .icon-kandidat .next {
-    margin-top: -60px;
-    margin-left: 110px;
-    font-size: 30px;
+    margin-top: -80px;
+    margin-left: 130px;
 }
 
-.form-group {
-    justify-content: center;
-    width: 40vh;
-    margin-bottom: 1vh;
+.registrasi-container {
+    height: 100vh;
+    width: 100%;
+    margin-left: 200px;
+    margin-top: -30px;
 }
 
-.container h4 {
-    text-align: center;
-    font-size: 16px;
+.regis-form {
+    max-width: 100%;
+    width: 460px;
+    padding: 10px;
+    margin: auto;
 }
 
-.form-group label {
-    font-size: 15px;
+.regis-form legend {
+    font-size: 20px;
+    margin-bottom: -13px;
 }
 
-.form-group button {
-    background-color: #00538e;
-    font-size: 15px;
-    margin-top: 10px;
+.regis-form button {
+    background-color: #0E5180;
+    border-color: #0E5180;
+    border-radius: 10px;
 }
 
 
@@ -120,7 +120,13 @@ ul li {
     border-radius: 15px;
 }
 
-section {
+.update-data-pemilih p{
+    font-weight: bold;
+    font-size: 17px;
+}
+}
+
+section{
     margin-top: 100px;
 }
 
@@ -128,20 +134,16 @@ section.update-data-pemilih {
     margin: 50px auto;
 }
 
-.ketua1 h2,
-.ketua2 h2,
-.update-data-pemilih h2,
-.selamat h2 {
+.ketua1 h2,.ketua2 h2,.update-data-pemilih h2, .selamat h2{
     font-size: 20px;
     margin-bottom: 20px;
 }
 
-.selamat {
+.selamat{
     margin-bottom: 100px;
 }
 
-.selamat .foto1,
-.selamat .foto2 {
+.selamat .foto1, .selamat .foto2, .selamat .topik-ketum{
     width: 100px;
     height: 100px;
     margin: 0 5%;
@@ -149,152 +151,234 @@ section.update-data-pemilih {
     box-sizing: border-box;
 }
 
-.selamat .foto1 {
+.selamat .foto1{
     background-color: #b5b5b5;
 }
 
-.selamat .foto2 {
+.selamat .foto2{
     background-color: #6397bd;
 }
 
-.selamat img {
+.selamat img{
     height: 80%;
     margin: 0 15%;
     padding: 10px;
 }
 
-.selamat p {
+.selamat p{
     color: white;
     text-align: center;
     font-weight: bold;
     font-size: 10px;
 }
 
-.selamat .ket-foto {
+.selamat .ket-foto{
     display: inline-block;
     width: 100px;
     height: 100px;
     margin: 5px 5%;
 }
 
-.selamat .ket-foto p {
+.selamat .ket-foto p{
     color: black;
     padding: 0;
 }
 
-@media screen and (min-width: 800px) {
-    .navbar {
+
+
+/*Menu Pemilihan Utama*/
+
+section .menu-pilihan{
+    margin-top: -;
+
+}
+
+.menu-pilihan h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-pilihan{
+    margin-bottom: 100px;
+    margin-top : 0.5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    width : 100%;
+    padding: 0;
+}
+
+.menu-pilihan a{
+    width: 50%;
+    height: 400px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.menu-pilihan .foto1, .menu-pilihan .foto2{
+    width: 100%;
+    height: 400px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.menu-pilihan .foto1{
+}
+
+.menu-pilihan .foto2{
+}
+
+.menu-pilihan img{
+    height: 45%;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.menu-pilihan p{
+    color: #6397bd;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    
+}
+
+.menu-pilihan .ket-foto{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5%;
+}
+
+.menu-pilihan .ket-foto p{
+    color: black;
+    padding: 20;
+}
+
+
+
+
+/*Menu Pemilihan Ketum*/
+
+.pilih-ketum{
+    margin-bottom: 100px;
+    margin-top : 20px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    width : 100%;
+    padding: 0;
+}
+
+.pilih-ketum .foto1, .pilih-ketum .foto2{
+    width: 400px;
+    height: 400px;
+    margin: 0 1%;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.pilih-ketum .topik-ketum{
+    width: 300px;
+    height: 400px;
+    margin: 0 1%;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.pilih-ketum .foto1, .pilih-ketum .foto2, .pilih-ketum .topik-ketum{
+    background-color: #b5b5b5;
+}
+
+
+.pilih-ketum img{
+    height: 60%;
+    margin: 0 25%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.pilih-ketum .foto1 p, .pilih-ketum .foto2 p{
+    color: #6397bd;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.pilih-ketum .topik-ketum p{
+    color: #6397bd;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 145px;
+}
+
+.pilih-ketum .ket-foto{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5%;
+}
+
+.pilih-ketum .ket-foto p{
+    color: black;
+    padding: 0;
+}
+
+.pilih-ketum .foto1 .nomor1{
+    position: absolute;
+    top: 10px;
+    left: 260px;
+    font-size: 240px;
+    margin-left: 45px;
+}
+
+.pilih-ketum .foto2 .nomor2{
+    position: absolute;
+    top: 10px;
+    right: 435px;
+    font-size: 240px;
+    margin-left: 45px;
+}
+
+
+
+
+
+
+@media screen and (min-width: 800px){
+    .navbar{
         padding: 0 0 0 16px;
     }
-    .name,
-    .navbar .log-in {
+    .name, .navbar .log-in {
         background-color: #0063aa;
     }
     .log-out {
         background-color: #00538e;
     }
     .name,
-    .log-out,
-    .navbar .log-in {
+    .log-out, .navbar .log-in{
         padding: 15px 25px;
-    }
-    .form-group {
-        min-height: 40vh;
-        justify-content: center;
-        width: 59vh;
-        margin-bottom: -27vh;
-    }
-    .form-group h4 {
-        font-size: 25px;
-    }
-    .form-group button {
-        margin-bottom: 30vh;
-    }
-    .icon-kandidat img {
-        width: 250px;
-        margin-top: 0px;
-    }
-    .icon-kandidat h1 {
-        font-family: sans-serif;
-        color: #0E5180;
-    }
-    .icon-kandidat .who {
-        margin-bottom: -25px;
-        margin-left: 40px;
-        font-size: 40px;
-        margin-top: 0px;
-    }
-    .icon-kandidat .next {
-        margin-top: -80px;
-        margin-left: 130px;
-        font-size: 40px;
     }
     .update-data-pemilih .kotak {
         width: 130px;
         height: 130px;
     }
-    .ketua1 h2,
-    .ketua2 h2,
-    .update-data-pemilih h2,
-    .selamat h2 {
+
+    .ketua1 h2, .ketua2 h2, .update-data-pemilih h2 , .selamat h2{
         font-size: 35px;
     }
-    .selamat p {
+    .selamat p{
         font-size: small;
     }
-    .selamat .foto1,
-    .selamat .foto2,
-    .selamat .ket-foto {
+    .selamat .foto1, .selamat .foto2, .selamat .ket-foto{
         width: 190px;
         height: 190px;
         margin: 5 10%;
     }
 }
 
-@media screen and (max-width:650px) {
-    .form-group h4 {
-        font-size: 20px;
-    }
-    .form-group {
-        justify-content: center;
-        padding: 1px;
-        width: 32vh;
-    }
-    .form-group h4 {
-        font-size: 15px;
-    }
-    .form-group label {
-        font-size: 12px;
-    }
-    .form-group button {
-        margin-top: 10px;
-        font-size: 12px;
-    }
-    .icon-kandidat img {
-        width: 130px;
-        margin-top: 8vh;
-    }
-    .icon-kandidat h1 {
-        font-family: sans-serif;
-        color: #0E5180;
-        font-size: 25px;
-    }
-    .icon-kandidat .who {
-        margin-left: -2px;
-        margin-top: 7vh;
-        margin-bottom: -11vh;
-    }
-    .icon-kandidat .next {
-        margin-top: -45px;
-        margin-left: 40px;
-    }
-    .update-data-pemilih h2 {
-        font-size: 15px;
-    }
-    .login-form {
-        max-width: 100%;
-        width: 350px;
-        padding: 10px;
-        margin: auto;
-    }
-}
+
+
+    
