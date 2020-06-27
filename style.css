@@ -2,6 +2,7 @@ body {
     background-color: #dddddd
 }
 
+
 /* STYLE NAVBAR */
 
 .navbar {
@@ -24,6 +25,7 @@ ul li {
     margin: 0 auto;
     padding: 0 0 0 16px;
 }
+
 
 /* FORM REGIS */
 
@@ -83,7 +85,9 @@ ul li {
 .form-group button {
     background-color: #00538e;
     font-size: 15px;
+    margin-top: 10px;
 }
+
 
 /* FORM LOGIN */
 
@@ -116,7 +120,7 @@ ul li {
     border-radius: 15px;
 }
 
-section{
+section {
     margin-top: 100px;
 }
 
@@ -124,16 +128,20 @@ section.update-data-pemilih {
     margin: 50px auto;
 }
 
-.ketua1 h2,.ketua2 h2,.update-data-pemilih h2, .selamat h2{
+.ketua1 h2,
+.ketua2 h2,
+.update-data-pemilih h2,
+.selamat h2 {
     font-size: 20px;
     margin-bottom: 20px;
 }
 
-.selamat{
+.selamat {
     margin-bottom: 100px;
 }
 
-.selamat .foto1, .selamat .foto2{
+.selamat .foto1,
+.selamat .foto2 {
     width: 100px;
     height: 100px;
     margin: 0 5%;
@@ -141,67 +149,67 @@ section.update-data-pemilih {
     box-sizing: border-box;
 }
 
-.selamat .foto1{
+.selamat .foto1 {
     background-color: #b5b5b5;
 }
 
-.selamat .foto2{
+.selamat .foto2 {
     background-color: #6397bd;
 }
 
-.selamat img{
+.selamat img {
     height: 80%;
     margin: 0 15%;
     padding: 10px;
 }
 
-.selamat p{
+.selamat p {
     color: white;
     text-align: center;
     font-weight: bold;
     font-size: 10px;
 }
 
-.selamat .ket-foto{
+.selamat .ket-foto {
     display: inline-block;
     width: 100px;
     height: 100px;
     margin: 5px 5%;
 }
 
-.selamat .ket-foto p{
+.selamat .ket-foto p {
     color: black;
     padding: 0;
 }
 
-
-
-@media screen and (min-width: 800px){
-    .navbar{
+@media screen and (min-width: 800px) {
+    .navbar {
         padding: 0 0 0 16px;
     }
-    .name, .navbar .log-in {
+    .name,
+    .navbar .log-in {
         background-color: #0063aa;
     }
     .log-out {
         background-color: #00538e;
     }
     .name,
-    .log-out, .navbar .log-in{
+    .log-out,
+    .navbar .log-in {
         padding: 15px 25px;
     }
-    
     .form-group {
         min-height: 40vh;
         justify-content: center;
         width: 59vh;
         margin-bottom: -27vh;
     }
-    
     .form-group h4 {
         font-size: 25px;
     }
-    
+    .form-group button {
+        margin-bottom: 30vh;
+    }
     .icon-kandidat img {
         width: 250px;
         margin-top: 0px;
@@ -221,24 +229,72 @@ section.update-data-pemilih {
         margin-left: 130px;
         font-size: 40px;
     }
-    .container {
-        margin-bottom: 17vh;
-    }
-    
     .update-data-pemilih .kotak {
         width: 130px;
         height: 130px;
     }
-
-    .ketua1 h2, .ketua2 h2, .update-data-pemilih h2 , .selamat h2{
+    .ketua1 h2,
+    .ketua2 h2,
+    .update-data-pemilih h2,
+    .selamat h2 {
         font-size: 35px;
     }
-    .selamat p{
+    .selamat p {
         font-size: small;
     }
-    .selamat .foto1, .selamat .foto2, .selamat .ket-foto{
+    .selamat .foto1,
+    .selamat .foto2,
+    .selamat .ket-foto {
         width: 190px;
         height: 190px;
         margin: 5 10%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .form-group h4 {
+        font-size: 20px;
+    }
+    .form-group {
+        justify-content: center;
+        padding: 1px;
+        width: 32vh;
+    }
+    .form-group h4 {
+        font-size: 15px;
+    }
+    .form-group label {
+        font-size: 12px;
+    }
+    .form-group button {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .icon-kandidat img {
+        width: 130px;
+        margin-top: 8vh;
+    }
+    .icon-kandidat h1 {
+        font-family: sans-serif;
+        color: #0E5180;
+        font-size: 25px;
+    }
+    .icon-kandidat .who {
+        margin-left: -2px;
+        margin-top: 7vh;
+        margin-bottom: -11vh;
+    }
+    .icon-kandidat .next {
+        margin-top: -45px;
+        margin-left: 40px;
+    }
+    .update-data-pemilih h2 {
+        font-size: 15px;
+    }
+    .login-form {
+        max-width: 100%;
+        width: 350px;
+        padding: 10px;
+        margin: auto;
     }
 }
