@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,49 +12,53 @@
 
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <a href=""><img src="img/okif.png" width="35" alt=""></a>
-        <a class="navbar-brand" href="#" style="color: white;">PEMILU RAYA MAHASISWA INFORMATIKA</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="log-in">
-                    <p><a href="login.html" style="color: white;">Login</a></p>
-                </li>
-            </ul>
+    <nav class="navbar">
+        <div class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="navbar-header">
+                <img src="img/okif.png" alt="" width="40">
+                <a href="#"></a>PEMILU RAYA MAHASISWA INFORMATIKA</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="log-in"><a href="login.html">Login</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <!-- ICON KANDIDAT -->
-    <div class="regis-form container">
-        <div class="row">
-            <div class="col">
-                <div class="icon-kandidat">
-                    <h1 class="who font-weight-bold">WHO'S</h1>
-                    <img src="img/gogog.png" alt="">
-                    <h1 class="next font-weight-bold">NEXT ?</h1>
+    <!-- FORM REGIS -->
+
+    <div class="container">
+        <div class="row wrap-reverse">
+            <div class="icon-kandidat ">
+                <h1 class="who">WHO'S</h1>
+                <img src="img/gogog.png " alt=" " width="250">
+                <h1 class="next ">NEXT ?</h1>
+            </div>
+
+            <div class="col-md-4.5">
+                <div class="registrasi-container row justify-content-center">
+                    <form class="regis-form">
+                        <legend class="regis-form" style="text-align: center;"><b>Form Registrasi Pemilih</b></legend>
+                        <div class="regis-form ">
+                            <label>Nama</label>
+                            <input type="text " class="form-control " id="exampleInputName1 " aria-describedby="namelHelp ">
+                        </div>
+                        <div class="regis-form ">
+                            <label>Nim</label>
+                            <input type="text " class="form-control " id="exampleInputPassword1 ">
+                        </div>
+                        <div class="regis-form ">
+                            <label>E-mail</label>
+                            <input type="text " class="form-control " id="exampleInputEmail1 ">
+                        </div>
+                        <div class="regis-form">
+                            <button type="submit" class="btn btn-primary">Registrasi</button>
+                        </div>
+                    </form>
                 </div>
             </div>
-            <div class="col">
-                <form class="form-group">
-                    <h4>Form Registrasi Pemilih</h4>
-                    <div class="form-group">
-                        <label for="exampleInputNama1">Nama</label>
-                        <input type="text" class="form-control" id="exampleInputNama1" aria-describedby="emailHelp">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputNim">Nim</label>
-                        <input type="text" class="form-control" id="exampleInputNim1">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Registrasi</button>
-                </form>
-            </div>
+
         </div>
     </div>
 
@@ -63,7 +66,7 @@
 
     <section class="update-data-pemilih">
         <div class="container text-center">
-            <h2>UPDATE DATA PEMILIH</h2>
+            <h2><b>UPDATE DATA PEMILIH</b></h2>
             <div class="row justify-content-center">
                 <div class="kotak"></div>
                 <div class="kotak"></div>
