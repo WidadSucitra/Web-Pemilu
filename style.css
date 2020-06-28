@@ -41,13 +41,11 @@ ul li {
     padding: 0 0 0 16px;
 }
 
-
 /* FORM REGIS */
 
 .regis-form .container {
     padding-top: 10vh;
     justify-content: center;
-    margin-top: 5vh;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -57,12 +55,13 @@ ul li {
 
 .icon-kandidat {
     margin-left: 20vh;
+    margin-top: -12vh;
 }
 
 .icon-kandidat img {
     margin-top: 15vh;
     margin-right: 19vh;
-    width: 200px;
+    width: 230px;
 }
 
 .icon-kandidat h1 {
@@ -71,25 +70,26 @@ ul li {
 }
 
 .icon-kandidat .who {
-    margin-top: 20px;
+    margin-top: 18px;
     margin-bottom: -120px;
-    margin-left: 40px;
-    font-size: 30px;
+    margin-left: 35px;
+    font-size: 40px;
 }
 
 .icon-kandidat .next {
-    margin-top: -60px;
+    margin-top: -80px;
     margin-left: 110px;
-    font-size: 30px;
+    font-size: 40px;
+    margin-bottom: 10vh;
 }
 
 .regis-form-group {
-    margin-right: 10px;
+    margin: auto;
 }
 
 .form-group {
     justify-content: center;
-    width: 40vh;
+    width: 45vh;
     margin-bottom: 1vh;
 }
 
@@ -102,7 +102,7 @@ ul li {
     font-size: 15px;
 }
 
-.form-group button {
+.regis-form-group button {
     background-color: #00538e;
     font-size: 15px;
     margin-top: 10px;
@@ -117,7 +117,6 @@ ul li {
 }
 
 .login-form {
-    max-width: 100%;
     width: 350px;
     padding: 10px;
     margin: auto;
@@ -465,7 +464,7 @@ section.update-data-pemilih {
     .regis-form {
         display: flex;
         flex-direction: row;
-        margin-top: 1vh;
+        margin-top: 9vh;
     }
     .regis-form-group legend {
         font-size: 20px;
@@ -589,5 +588,32 @@ section.update-data-pemilih {
         width: 450px;
         padding: 10px;
         margin: auto;
+    }
+
+    .icon-kandidat img{
+        margin-right: 19vh;
+        width: 250px;
+    }
+
+    .icon-kandidat .who{
+        font-size: 45px;
+    }
+
+    .icon-kandidat .next{
+       margin-top: -85px;
+        margin-left: 120px;
+        font-size: 45px;
+        margin-bottom: 5vh;
+    }
+
+    .regis-form-group{
+        margin-top: -10vh;
+    }
+
+    .regis-form-group legend{
+        font-size: 20px;
+    }
+    .regis-form-group .form-group, .login-form{
+        width: 59vh;
     }
 }
