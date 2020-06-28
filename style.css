@@ -6,8 +6,23 @@ body {
 /* STYLE NAVBAR */
 
 .navbar {
-    background: #1d74b3;
+    background-color: #1d74b3;
+    color: white;    
+    height: 56px;
+}
+
+.navbar-header img {
+    height: 40px; 
+    margin-top: 5px;
+    margin-left: -15px;
+    padding-bottom: 8px;
+    color: white;
+}
+
+.navbar-header {
+    font-size: 10px;
     color: #fefefe;
+    padding-left: 10px;
 }
 
 .navbar a {
