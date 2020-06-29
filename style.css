@@ -1,5 +1,5 @@
 body {
-    background-color: #dddddd
+    background-color: #fefefe;
 }
 
 
@@ -7,12 +7,11 @@ body {
 
 .navbar {
     background-color: #1d74b3;
-    color: white;    
-
+    color: white;
 }
 
 .navbar-header img {
-    height: 40px; 
+    height: 40px;
     margin-top: 5px;
     margin-left: -15px;
     padding-bottom: 8px;
@@ -41,6 +40,7 @@ ul li {
     padding: 0 0 0 16px;
 }
 
+
 /* FORM REGIS */
 
 .regis-form .container {
@@ -51,16 +51,15 @@ ul li {
     flex-flow: wrap;
     max-width: 100%;
     margin-bottom: 10vh;
+    margin-top: -7vh;
 }
 
 .icon-kandidat {
-    margin-left: 20vh;
-    margin-top: -12vh;
+    margin-top: -1vh;
 }
 
 .icon-kandidat img {
     margin-top: 15vh;
-    margin-right: 19vh;
     width: 230px;
 }
 
@@ -71,7 +70,7 @@ ul li {
 
 .icon-kandidat .who {
     margin-top: 18px;
-    margin-bottom: -120px;
+    margin-bottom: -17vh;
     margin-left: 35px;
     font-size: 40px;
 }
@@ -85,12 +84,15 @@ ul li {
 
 .regis-form-group {
     margin: auto;
+    background: none;
+    width: 40vh;
 }
 
-.form-group {
+.form-group input {
     justify-content: center;
-    width: 45vh;
     margin-bottom: 1vh;
+    border-radius: 10px;
+    background-color: #dddddd;
 }
 
 .regis-form-group legend {
@@ -106,6 +108,8 @@ ul li {
     background-color: #00538e;
     font-size: 15px;
     margin-top: 10px;
+    border-color: #00538e;
+    border-radius: 10px;
 }
 
 
@@ -117,9 +121,14 @@ ul li {
 }
 
 .login-form {
-    width: 350px;
     padding: 10px;
     margin: auto;
+    justify-content: center;
+}
+
+.login-form input {
+    border-radius: 10px;
+    background-color: #dddddd;
 }
 
 .login-form button {
@@ -127,6 +136,8 @@ ul li {
     margin-top: 10px;
     width: 100px;
     background-color: #0E5180;
+    border-color: #00538e;
+    border-radius: 10px;
 }
 
 .update-data-pemilih .kotak {
@@ -468,23 +479,25 @@ section.update-data-pemilih {
         font-size: 20px;
         margin-top: 5vh;
         text-align: center;
-        margin-left: 7vh;
     }
-    .form-group {
+    .regis-form-group {
         justify-content: center;
+        margin-left: 5vh;
         padding: 1px;
-        width: 60vh;
-        border-radius: 24px;
-        margin-left: 15vh;
+        width: 50vh;
+        border-color: #00538e;
     }
     .form-group label {
         font-size: 17px;
     }
     .regis-form-group button {
-        margin-left: 15vh;
         margin-top: 10px;
         font-size: 17px;
         background-color: #00538e;
+        margin-bottom: -8vh;
+    }
+    .icon-kandidat {
+        margin-right: 5vh;
     }
     .icon-kandidat img {
         width: 250px;
@@ -496,9 +509,9 @@ section.update-data-pemilih {
         color: #0E5180;
     }
     .icon-kandidat .who {
-        margin-left: 4vh;
-        margin-top: 7vh;
-        margin-bottom: -11vh;
+        margin-left: 5vh;
+        margin-bottom: -10vh;
+        margin-top: 6vh;
         font-size: 45px;
     }
     .icon-kandidat .next {
@@ -506,6 +519,9 @@ section.update-data-pemilih {
         margin-left: 120px;
         font-size: 45px;
         margin-bottom: 5vh;
+    }
+    .login-form {
+        width: 40vh;
     }
 }
 
@@ -587,31 +603,29 @@ section.update-data-pemilih {
         padding: 10px;
         margin: auto;
     }
-
-    .icon-kandidat img{
+    .icon-kandidat img {
         margin-right: 19vh;
         width: 250px;
     }
-
-    .icon-kandidat .who{
+    .icon-kandidat .who {
         font-size: 45px;
     }
-
-    .icon-kandidat .next{
-       margin-top: -85px;
+    .icon-kandidat .next {
+        margin-top: -85px;
         margin-left: 120px;
         font-size: 45px;
         margin-bottom: 5vh;
     }
-
-    .regis-form-group{
-        margin-top: -10vh;
+    .regis-form-group {
+        margin-right: 20vh;
+        margin-left: 10vh;
     }
-
-    .regis-form-group legend{
+    .regis-form-group legend {
         font-size: 20px;
+        margin-left: 9vh;
     }
-    .regis-form-group .form-group, .login-form{
+    .form-group,
+    .login-form {
         width: 59vh;
     }
 }
