@@ -85,7 +85,7 @@ ul li {
 .regis-form-group {
     margin: auto;
     background: none;
-    width: 40vh;
+    width: 35vh;
 }
 
 .form-group input {
@@ -470,15 +470,6 @@ section.update-data-pemilih {
         display: block;
         margin-top: 20px;
     }
-    .regis-form .container {
-    padding-top: 10vh;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    max-width: 100%;
-    margin-bottom: 10vh;
-    margin-top: -10vh;
-}
     .regis-form {
         margin-bottom: -7vh;
         margin-top: 5vh;
@@ -491,7 +482,7 @@ section.update-data-pemilih {
     .regis-form-group {
         justify-content: center;
         padding: 1px;
-        width: 40vh;
+        width: 35vh;
         border-color: #00538e;
     }
     .form-group label {
@@ -516,7 +507,7 @@ section.update-data-pemilih {
         color: #0E5180;
     }
     .icon-kandidat .who {
-        margin-left: 5vh;
+        margin-left: 55px;
         margin-bottom: -9vh;
         margin-top: 6vh;
         font-size: 45px;
