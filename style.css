@@ -1,5 +1,5 @@
 body {
-    background-color: #fefefe
+    background-color: #fefefe;
 }
 
 
@@ -85,6 +85,7 @@ ul li {
 .regis-form-group {
     margin: auto;
     background: none;
+    width: 30vh;
 }
 
 .form-group input {
@@ -436,7 +437,7 @@ section.update-data-pemilih {
     .regis-form-group {
         justify-content: center;
         padding: 1px;
-        width: 35vh;
+        width: 30vh;
         border-color: #00538e;
     }
     .form-group label {
@@ -461,7 +462,7 @@ section.update-data-pemilih {
         color: #0E5180;
     }
     .icon-kandidat .who {
-        margin-left: 60px;
+        margin-left: 5vh;
         margin-bottom: -9vh;
         margin-top: 6vh;
         font-size: 45px;
@@ -647,7 +648,7 @@ section.update-data-pemilih {
     }
     .regis-form-group {
         margin-left: 20vh;
-        width: 350px;
+        width: 50vh;
         height: 100px;
 
     }
