@@ -218,14 +218,9 @@ section.update-data-pemilih {
 
 /*Menu Pemilihan Utama*/
 
-.menu-pilihan h2 {
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
 .menu-pilihan {
-    margin-bottom: 100px;
-    margin-top: 0.5%;
+    margin-bottom: 0px;
+    margin-top: 3%;
     margin-left: 0.5%;
     margin-right: 0.5%;
     width: 100%;
@@ -242,36 +237,24 @@ section.update-data-pemilih {
 .menu-pilihan .foto1,
 .menu-pilihan .foto2 {
     width: 100%;
-    height: 400px;
+    height: 300px;
     border-radius: 5px;
     box-sizing: border-box;
     text-align: center;
 }
 
 .menu-pilihan img {
-    height: 45%;
-    margin-top: 60px;
+    height: 40%;
+    margin-top: 135px;
     margin-bottom: 20px;
 }
 
 .menu-pilihan p {
-    color: #6397bd;
+    color: #1D74B3;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     margin: 0;
-}
-
-.menu-pilihan .ket-foto {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    margin: 5px 5%;
-}
-
-.menu-pilihan .ket-foto p {
-    color: black;
-    padding: 20;
 }
 
 .update h2 {
@@ -333,33 +316,25 @@ section.update-data-pemilih {
 
 .pilih-ketum {
     margin-bottom: 100px;
-    margin-top: 20px;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    margin-top: 110px;
     width: 100%;
-    padding: 0;
 }
 
 .pilih-ketum .foto1,
 .pilih-ketum .foto2 {
-    width: 400px;
-    height: 400px;
-    margin: 0 1%;
-    border-radius: 30px;
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
     box-sizing: border-box;
+    background-color: #b5b5b5;
 }
 
 .pilih-ketum .topik-ketum {
-    width: 300px;
-    height: 400px;
-    margin: 0 1%;
-    border-radius: 30px;
+    width: 70px;
+    height: 130px;
+    margin: 0 1.5%;
+    border-radius: 10px;
     box-sizing: border-box;
-}
-
-.pilih-ketum .foto1,
-.pilih-ketum .foto2,
-.pilih-ketum .topik-ketum {
     background-color: #b5b5b5;
 }
 
@@ -368,52 +343,35 @@ section.update-data-pemilih {
     margin: 0 25%;
     padding: 10px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 23px;
 }
 
 .pilih-ketum .foto1 p,
 .pilih-ketum .foto2 p {
-    color: #6397bd;
+    color: #1D74B3;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
-    margin-top: 15px;
+    font-size: 7px;
+    margin-top: 2px;
 }
 
 .pilih-ketum .topik-ketum p {
-    color: #6397bd;
+    color: #1D74B3;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
-    margin-top: 145px;
+    font-size: 7px;
+    margin-top: 50px;
 }
 
-.pilih-ketum .ket-foto {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    margin: 5px 5%;
-}
-
-.pilih-ketum .ket-foto p {
-    color: black;
-    padding: 0;
-}
-
-.pilih-ketum .foto1 .nomor1 {
+.pilih-ketum .foto1 h1, 
+.pilih-ketum .foto2 h1 {
+    font-size: 60px;
+    font-family: sans-serif;
+    color: #1D74B3;
     position: absolute;
-    top: 10px;
-    left: 260px;
-    font-size: 240px;
-    margin-left: 45px;
-}
-
-.pilih-ketum .foto2 .nomor2 {
-    position: absolute;
-    top: 10px;
-    right: 435px;
-    font-size: 240px;
-    margin-left: 45px;
+    font-family: sans-serif;
+    margin-left: 28px;
+    margin-top: 20px;
 }
 
 @media screen and (min-width: 760px) and (max-width: 1000px) {
@@ -520,6 +478,43 @@ section.update-data-pemilih {
     .login-form {
         width: 40vh;
     }
+    .menu-pilihan img {
+        height: 45%;
+        margin-top: 125px;
+    }
+    .menu-pilihan p {
+        font-size: 15px;
+    }
+    .pilih-ketum .foto1,
+    .pilih-ketum .foto2 {
+        width: 250px;
+        height: 250px;
+        border-radius: 20px;
+    }
+    .pilih-ketum .topik-ketum {
+        width: 150px;
+        height: 250px;
+        border-radius: 20px;
+    }
+    .pilih-ketum img {
+        margin-top: 15%;
+    }
+    .pilih-ketum .foto1 p,
+    .pilih-ketum .foto2 p {
+        font-size: 13px;
+        margin-top: 7px;
+    }
+    .pilih-ketum .topik-ketum p {
+        font-size: 13px;
+        margin-top: 93px;
+    }
+    .pilih-ketum .foto1 h1, 
+    .pilih-ketum .foto2 h1 {
+        font-size: 150px;
+        margin-left: 32px;
+        margin-top: 4px;
+    }
+}
 }
 
 @media screen and (min-width: 1001px) {
@@ -553,6 +548,46 @@ section.update-data-pemilih {
     .update-data-pemilih .kotak {
         width: 130px;
         height: 130px;
+    }
+    .menu-pilihan .foto1,
+    .menu-pilihan .foto2 {
+        height: 400px;
+    }
+    .menu-pilihan img {
+        height: 45%;
+        margin-top: 80px;
+    }
+    .menu-pilihan p {
+        font-size: 20px;
+    }
+    .pilih-ketum .foto1,
+    .pilih-ketum .foto2 {
+        width: 350px;
+        height: 350px;
+        border-radius: 30px;
+    }
+    .pilih-ketum .topik-ketum {
+        width: 250px;
+        height: 350px;
+        border-radius: 30px;
+    }
+    .pilih-ketum img {
+        margin-top: 70px;
+    }
+    .pilih-ketum .foto1 p,
+    .pilih-ketum .foto2 p {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .pilih-ketum .topik-ketum p {
+        font-size: 20px;
+        margin-top: 125px;
+    }
+    .pilih-ketum .foto1 h1, 
+    .pilih-ketum .foto2 h1 {
+        font-size: 220px;
+        margin-left: 40px;
+        margin-top: 15px;
     }
     .ketua1 h2,
     .ketua2 h2,
