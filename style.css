@@ -85,7 +85,6 @@ ul li {
 .regis-form-group {
     margin: auto;
     background: none;
-    width: 35vh;
 }
 
 .form-group input {
@@ -615,12 +614,10 @@ section.update-data-pemilih {
         margin-bottom: 5vh;
     }
     .regis-form-group {
-        margin-right: 20vh;
-        margin-left: 10vh;
+        margin-left: 20vh;
     }
     .regis-form-group legend {
         font-size: 20px;
-        margin-left: 9vh;
     }
     .form-group,
     .login-form {
