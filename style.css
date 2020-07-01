@@ -279,7 +279,12 @@ section.update-data-pemilih {
     box-sizing: border-box;
     padding-top: 5px;
     display: inline-block;
-    margin: 0 9%;
+    margin: 0 10px;
+}
+
+.update .foto-update{
+    margin: auto;
+    width: fit-content
 }
 
 .update .foto1 {
@@ -402,18 +407,14 @@ section.update-data-pemilih {
         height: 190px;
         margin: 5 10%;
     }
-    .update .foto1,
-    .update .foto2 {
-        width: 110px;
-        height: 110px;
-        padding-top: 10px;
-    }
     .update .foto-update,
     .update .chart-update {
         display: inline-block;
     }
     .update .foto-update {
         width: 20%;
+        margin: 0;
+        padding-top: 40px;
     }
     .update .chart-update {
         width: 70%;
@@ -423,7 +424,8 @@ section.update-data-pemilih {
         width: 100px;
         height: 100px;
         display: block;
-        margin-top: 20px;
+        padding-top: 10px;
+        margin: 20px auto;
     }
     .regis-form {
         margin-bottom: -7vh;
@@ -616,14 +618,16 @@ section.update-data-pemilih {
         height: 150px;
         padding-top: 10px;
         display: block;
-        margin-top: 20px;
+        margin: 20px auto;
     }
     .update .foto-update,
     .update .chart-update {
         display: inline-block;
-    }
+    }    
     .update .foto-update {
         width: 20%;
+        margin: 0;
+        padding-top: 40px;
     }
     .update .chart-update {
         width: 70%;
