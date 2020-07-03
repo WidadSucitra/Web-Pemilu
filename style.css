@@ -229,7 +229,7 @@ section.update-data-pemilih {
     padding: 0;
 }
 
-.menu-pilihan a {
+.menu-pilihan button {
     width: 50%;
     height: 400px;
     border-radius: 5px;
@@ -382,7 +382,7 @@ section.update-data-pemilih {
     margin-top: 20px;
 }
 
-.pilih-ketum button{
+.pilih-ketum button , .menu-pilihan button{
     border-color: transparent;
     background-color: transparent; 
  }
