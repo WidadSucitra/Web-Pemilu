@@ -234,6 +234,16 @@ section.update-data-pemilih {
     height: 400px;
     border-radius: 5px;
     box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.menu-pilihan button:hover{
+    background-color: #b5b5b5;
+    color: #b5b5b5;
 }
 
 .menu-pilihan .foto1,
@@ -247,7 +257,7 @@ section.update-data-pemilih {
 
 .menu-pilihan img {
     height: 40%;
-    margin-top: 135px;
+    margin-top: 80px;
     margin-bottom: 20px;
 }
 
@@ -327,13 +337,29 @@ section.update-data-pemilih {
     width: 100%;
 }
 
+.pilih-ketum button{
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #b5b5b5;
+    color: #b5b5b5;
+    border-radius: 10px;
+}
+
+.pilih-ketum button:hover{
+    background-color: #d4d4d4;
+    color: #d4d4d4;
+}
+
 .pilih-ketum .foto1,
 .pilih-ketum .foto2 {
     width: 130px;
     height: 130px;
     border-radius: 10px;
     box-sizing: border-box;
-    background-color: #b5b5b5;
+    
 }
 
 .pilih-ketum .topik-ketum {
@@ -384,8 +410,13 @@ section.update-data-pemilih {
 
 .pilih-ketum button , .menu-pilihan button{
     border-color: transparent;
-    background-color: transparent; 
- }
+}
+
+.menu-pilihan button{
+    background-color: transparent;
+}
+
+
 
 @media screen and (min-width: 760px) and (max-width: 1000px) {
     .navbar-header a {
@@ -490,10 +521,13 @@ section.update-data-pemilih {
     }
     .menu-pilihan img {
         height: 45%;
-        margin-top: 125px;
+        margin-top: 75px;
     }
     .menu-pilihan p {
         font-size: 15px;
+    }
+    .pilih-ketum button{
+        border-radius: 20px;
     }
     .pilih-ketum .foto1,
     .pilih-ketum .foto2 {
@@ -569,6 +603,9 @@ section.update-data-pemilih {
     }
     .menu-pilihan p {
         font-size: 20px;
+    }
+    .pilih-ketum button{
+        border-radius: 30px;
     }
     .pilih-ketum .foto1,
     .pilih-ketum .foto2 {
