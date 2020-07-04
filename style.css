@@ -442,12 +442,8 @@ section.update-data-pemilih {
     margin-top: 5vh;
 }
 
-.input-form h6 {
-    font-size: 12px;
-    font-weight: bold;
-    margin-top: 4vh;
-    background-color: none;
-    margin-left: 11vh;
+.next{
+    margin-top: 50px;
 }
 
 .input-form .card {
@@ -476,7 +472,6 @@ section.update-data-pemilih {
     background-color: #00538e;
     margin-bottom: 5vh;
     font-size: 12px;
-    margin-left: 11vh;
 }
 
 .ketude-form-group,
@@ -486,11 +481,13 @@ section.update-data-pemilih {
 
 .back button{
     margin-bottom: 10vh;
-    margin-top: 4vh;
+    margin-top: 2vh;
+    margin-right: 10vh;
     border-color: #00538e;
     border-radius: 10px;
     background-color: #00538e;
     font-size: 12px;
+    float: right;
 }
 
 @media screen and (min-width: 760px) and (max-width: 1000px) {
@@ -642,15 +639,15 @@ section.update-data-pemilih {
         text-align: center;
         font-size: 15px;
     }
-    .input-form h6 {
+    .next{
         font-size: 15px;
-        font-weight: bold;
-        margin-left: 0;
     }
     .input-form .form-group {
         width: 400px;
+        margin-left: 3vh;
     }
     .input-form input {
+        width: 350px;
         border-radius: 10px;
         background-color: #dddddd;
         border-color: #dddddd;
@@ -666,11 +663,14 @@ section.update-data-pemilih {
         margin-left: 0;
         margin-bottom: 1vh;
         font-size: 15px;
+        float: left;
     }
     .back button {
         margin-bottom: 10vh;
-        margin-top: 8vh;
+        margin-top: 10vh;
         font-size: 15px;
+        float: right;
+        margin-right: 2vh;
     }
 }
 
@@ -838,11 +838,8 @@ section.update-data-pemilih {
         font-size: 20px;
         margin-top: 6vh;
     }
-    .input-form h6 {
-        font-size: 15px;
-        font-weight: bold;
-        margin-top: 4vh;
-        margin-left: 4vh;
+    .next{
+        font-size: 20px;
     }
     .input-form .form-group {
         margin-bottom: 1rem;
@@ -867,7 +864,8 @@ section.update-data-pemilih {
     }
     .back button {
         margin-bottom: 10vh;
-        margin-left: 38vh;
+        margin-right: 4vh;
+        float: right;
         margin-top: -2vh;
         font-size: 15px;
     }
