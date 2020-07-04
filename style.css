@@ -643,6 +643,7 @@ section.update-data-pemilih {
     }
     .input-form .form-group {
         width: 400px;
+        margin: auto;
         margin-left: 2.5vh;
     }
     .input-form input {
