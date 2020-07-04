@@ -644,7 +644,6 @@ section.update-data-pemilih {
     }
     .input-form .form-group {
         width: 400px;
-        margin-left: 3vh;
     }
     .input-form input {
         width: 350px;
@@ -667,10 +666,9 @@ section.update-data-pemilih {
     }
     .back button {
         margin-bottom: 10vh;
-        margin-top: 5vh;
         font-size: 15px;
         float: right;
-        margin-right: 2vh;
+        margin-right: 5vh;
     }
 }
 
