@@ -416,7 +416,82 @@ section.update-data-pemilih {
     background-color: transparent;
 }
 
+/* FORM INPUT */
 
+.input-form .container {
+    padding-top: 10vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    margin-bottom: 10vh;
+    margin-top: -10vh;
+}
+
+.input-form h1 {
+    font-size: 20px;
+    margin-top: 10vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    text-align: center;
+}
+
+.input-form h4 {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5vh;
+}
+
+.input-form h6 {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 4vh;
+    background-color: none;
+    margin-left: 11vh;
+}
+
+.input-form .card {
+    border: none;
+}
+
+.input-form .form-group {
+    margin: auto;
+    width: 250px;
+}
+
+.input-form label {
+    font-size: 12px;
+}
+
+.input-form input {
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #dddddd;
+}
+
+.input-form button {
+    margin-top: 10px;
+    border-color: #00538e;
+    border-radius: 10px;
+    background-color: #00538e;
+    margin-bottom: 5vh;
+    font-size: 12px;
+    margin-left: 11vh;
+}
+
+.ketude-form-group,
+.ketum-form-group {
+    width: 400px;
+}
+
+.back button{
+    margin-bottom: 10vh;
+    margin-top: 4vh;
+    border-color: #00538e;
+    border-radius: 10px;
+    background-color: #00538e;
+    font-size: 12px;
+}
 
 @media screen and (min-width: 760px) and (max-width: 1000px) {
     .navbar-header a {
@@ -557,6 +632,45 @@ section.update-data-pemilih {
         font-size: 150px;
         margin-left: 32px;
         margin-top: 4px;
+    }
+    
+    .input-form h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .input-form h4 {
+        text-align: center;
+        font-size: 15px;
+    }
+    .input-form h6 {
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 0;
+    }
+    .input-form .form-group {
+        width: 400px;
+    }
+    .input-form input {
+        border-radius: 10px;
+        background-color: #dddddd;
+        border-color: #dddddd;
+    }
+    .input-form label {
+        font-size: 15px;
+    }
+    .input-form button {
+        border-color: #00538e;
+        border-radius: 10px;
+        background-color: #00538e;
+        margin-top: 2vh;
+        margin-left: 0;
+        margin-bottom: 1vh;
+        font-size: 15px;
+    }
+    .back button {
+        margin-bottom: 10vh;
+        margin-top: 8vh;
+        font-size: 15px;
     }
 }
 
@@ -714,4 +828,47 @@ section.update-data-pemilih {
         margin-left: 40px;
     }
     
+    .input-form h1 {
+        font-size: 30px;
+        margin-top: 15vh;
+        text-align: center;
+    }
+    .input-form h4 {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 6vh;
+    }
+    .input-form h6 {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 4vh;
+        margin-left: 4vh;
+    }
+    .input-form .form-group {
+        margin-bottom: 1rem;
+        width: 350px;
+    }
+    .input-form label {
+        font-size: 15px;
+    }
+    .input-form input {
+        border-radius: 10px;
+        background-color: #dddddd;
+        border-color: #dddddd;
+    }
+    .input-form button {
+        margin-top: 10px;
+        border-color: #00538e;
+        border-radius: 10px;
+        background-color: #00538e;
+        margin-bottom: 10vh;
+        font-size: 15px;
+        margin-left: 4vh;
+    }
+    .back button {
+        margin-bottom: 10vh;
+        margin-left: 38vh;
+        margin-top: -2vh;
+        font-size: 15px;
+    }
 }
