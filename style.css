@@ -489,6 +489,34 @@ section.update-data-pemilih {
     float: right;
 }
 
+/* Halaman Utama Admin */
+.halaman-utama-admin .container{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10vh;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.halaman-utama-admin .btn{
+    width: 300px;
+    height: 70px;
+    border-radius: 15px;
+    margin-bottom: 5vh;
+    font-size: 18px;
+    color: white;
+    margin: 0 25px;
+    margin-top: 10vh;
+    background-color: #00538e;
+    border-color: #00538e;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.halaman-utama-admin .btn:hover{
+    background-color: #0095ff;
+    border-color: #0095ff;
+}
+
 @media screen and (min-width: 760px) and (max-width: 1000px) {
     .navbar-header a {
         margin-left: 10px;
@@ -671,6 +699,13 @@ section.update-data-pemilih {
         font-size: 15px;
         float: right;
         margin-right: 5vh;
+    }
+        .halaman-utama-admin .btn{
+        width: 450px;
+        height: 100px;
+        border-radius: 20px;
+        font-size: 22px;
+        margin-top: 10vh;
     }
 }
 
@@ -867,5 +902,12 @@ section.update-data-pemilih {
         float: right;
         font-size: 15px;
         margin-top: -5vh;
+    }
+    .halaman-utama-admin .btn{
+        width: 600px;
+        height: 125px;
+        border-radius: 20px;
+        font-size: 25px;
+        margin-top: 10vh;
     }
 }
