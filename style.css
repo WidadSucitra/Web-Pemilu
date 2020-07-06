@@ -434,6 +434,7 @@ section.update-data-pemilih {
 
 /* FORM INPUT */
 
+
 .input-form .container {
     padding-top: 10vh;
     justify-content: center;
@@ -455,7 +456,7 @@ section.update-data-pemilih {
     margin-top: 5vh;
 }
 
-.next{
+.next {
     margin-top: 50px;
 }
 
@@ -477,7 +478,6 @@ section.update-data-pemilih {
     border-radius: 10px;
     background-color: #dddddd;
     width: 250px;
-
 }
 
 .input-form button {
@@ -489,16 +489,15 @@ section.update-data-pemilih {
     font-size: 12px;
 }
 
-.back button{
-    margin-bottom: 10vh;
+.back button {
     border-color: #00538e;
     border-radius: 10px;
     background-color: #00538e;
     font-size: 12px;
     float: right;
-    margin-top: -10vh;
 }
-.ketude-form-group{
+
+.ketude-form-group {
     width: 300px;
 }
 
@@ -713,19 +712,20 @@ section.update-data-pemilih {
     .input-form h1 {
         font-size: 25px;
         text-align: center;
+        margin-top: 15vh;
     }
     .input-form h4 {
         text-align: center;
         font-size: 15px;
     }
-    .next{
+    .next {
         font-size: 15px;
     }
     .input-form .form-group {
-        width: 400px;
+        width: 380px;
     }
     .input-form input {
-        width: 400px;
+        width: 380px;
         border-radius: 10px;
         background-color: #dddddd;
         border-color: #dddddd;
@@ -744,12 +744,11 @@ section.update-data-pemilih {
         float: left;
     }
     .back button {
-        margin-bottom: 10vh;
         font-size: 15px;
         float: right;
-        margin-right: 10vh;
+        margin-top: 8vh;
     }
-    .ketude-form-group{
+    .ketude-form-group {
         width: 400px;
     }
      .halaman-utama-admin .btn{
@@ -941,7 +940,7 @@ section.update-data-pemilih {
         margin-top: 15vh;
         text-align: center;
     }
-    .card{
+    .card {
         padding: 50px;
     }
     .input-form h4 {
@@ -949,7 +948,7 @@ section.update-data-pemilih {
         font-size: 20px;
         margin-top: 6vh;
     }
-    .next{
+    .next {
         font-size: 20px;
     }
     .input-form .form-group {
@@ -959,7 +958,6 @@ section.update-data-pemilih {
     .input-form label {
         font-size: 15px;
     }
-
     .input-form input {
         width: 300px;
         border-radius: 10px;
@@ -975,8 +973,6 @@ section.update-data-pemilih {
         font-size: 15px;
     }
     .back button {
-        margin-top: -10vh;
-        margin-bottom: 10vh;
         float: right;
         font-size: 15px;
     }
