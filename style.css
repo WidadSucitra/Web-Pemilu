@@ -165,7 +165,8 @@ section.update-data-pemilih {
 .ketua1 h2,
 .ketua2 h2,
 .update-data-pemilih h2,
-.selamat h2 {
+.selamat h2,
+.update-pemilih h2 {
     font-size: 20px;
     margin: 0;
 }
@@ -528,6 +529,44 @@ section.update-data-pemilih {
     border-color: #0095ff;
 }
 
+.update-pemilih .container{
+    background-color: whitesmoke;
+    padding: 30px 20px;
+}
+
+.update-pemilih .tabel-pemilih{
+    margin: 5% auto;
+    padding: 3%;
+    background-color: white;
+
+}
+
+.update-pemilih th:nth-child(1), .update-pemilih td:nth-child(1){
+    width: 1%;
+}
+
+.update-pemilih th, .update-pemilih td{
+    border: 1px solid lightgrey;
+    font-size: 7px;
+    width: 3%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.update-pemilih th {
+    background-color: #0095ff
+}
+
+.update-pemilih tr:nth-child(odd){ 
+    background-color: whitesmoke;
+}
+
+.update-pemilih tr{
+    background-color: white;
+}
+
+
 @media screen and (min-width: 760px) and (max-width: 1000px) {
     .navbar-header a {
         margin-left: 10px;
@@ -539,7 +578,8 @@ section.update-data-pemilih {
     .ketua2 h2,
     .update-data-pemilih h2,
     .selamat h2,
-    .update h2 {
+    .update h2,
+    .update-pemilih h2{
         font-size: 25px;
     }
     .selamat p,
@@ -718,6 +758,11 @@ section.update-data-pemilih {
         font-size: 22px;
         margin-top: 10vh;
     }
+    .update-pemilih th, .update-pemilih td{
+        font-size: small;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
 
 @media screen and (min-width: 1001px) {
@@ -812,7 +857,8 @@ section.update-data-pemilih {
     .ketua2 h2,
     .update-data-pemilih h2,
     .selamat h2,
-    .update h2 {
+    .update h2,
+    .update-pemilih h2 {
         font-size: 35px;
     }
     .selamat p,
@@ -936,5 +982,10 @@ section.update-data-pemilih {
         border-radius: 20px;
         font-size: 25px;
         margin-top: 10vh;
+    }
+    .update-pemilih th, .update-pemilih td{
+        font-size: smaller;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 }

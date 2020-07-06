@@ -7,7 +7,7 @@ var chart = new Chart(ctx, {
 
     // The data for our dataset
     data: {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        labels: ["00.00", "00.03", "00.06", "00.09", "00.12", "00.15", "00.18", "00.21", "00.24"],
         datasets: [{
             label: false ,
             backgroundColor: 'transparent',
@@ -30,7 +30,7 @@ var chart = new Chart(ctx, {
 
     // The data for our dataset
     data: {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        labels: ["00.00", "00.03", "00.06", "00.09", "00.12", "00.15", "00.18", "00.21", "00.24"],
         datasets: [{
             label: false ,
             backgroundColor: 'transparent',
