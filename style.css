@@ -330,18 +330,19 @@ section.update-data-pemilih {
 }
 
 .kotak h1 {
-    font-size: 15px;
-}
+    font-size: 25px;
+    padding-bottom: -5vh;
+    margin-top: 5px;
 
+}
 .kotak h3 {
-    font-size: 13px;
+    font-size: 10px;
+    font-weight: bold;
 }
-
 .kotak h1,
 .kotak h3 {
     color: #fefefe;
-    text-align: center;
-    margin-top: 5px;
+    text-align: center;    
 }
 
 /*Menu Pemilihan Ketum*/
@@ -799,16 +800,19 @@ section.update-data-pemilih {
         height: 130px;
     }
     .kotak h1 {
-        font-size: 25px;
+        font-size: 40px;
+        padding-bottom: -5vh;
+        margin-top: 25px;
+
     }
     .kotak h3 {
-        font-size: 20px;
+        font-size: 10px;
+        font-weight: bold;
     }
     .kotak h1,
     .kotak h3 {
         color: #fefefe;
-        text-align: center;
-        margin-top: 15px;
+        text-align: center;    
     }
     .menu-pilihan .foto1,
     .menu-pilihan .foto2 {
