@@ -497,13 +497,11 @@ section.update-data-pemilih {
 }
 
 .back button{
-    margin-bottom: 10vh;
-    border-color: #00538e;
+     border-color: #00538e;
     border-radius: 10px;
     background-color: #00538e;
     font-size: 12px;
     float: right;
-    margin-top: -10vh;
 }
 .ketude-form-group{
     width: 300px;
@@ -729,10 +727,10 @@ section.update-data-pemilih {
         font-size: 15px;
     }
     .input-form .form-group {
-        width: 400px;
+        width: 380px;
     }
     .input-form input {
-        width: 400px;
+        width: 380px;
         border-radius: 10px;
         background-color: #dddddd;
         border-color: #dddddd;
@@ -751,10 +749,9 @@ section.update-data-pemilih {
         float: left;
     }
     .back button {
-        margin-bottom: 10vh;
         font-size: 15px;
         float: right;
-        margin-right: 10vh;
+        margin-top: 8vh;
     }
     .ketude-form-group{
         width: 400px;
@@ -982,8 +979,6 @@ section.update-data-pemilih {
         font-size: 15px;
     }
     .back button {
-        margin-top: -10vh;
-        margin-bottom: 10vh;
         float: right;
         font-size: 15px;
     }
