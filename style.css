@@ -34,6 +34,10 @@ body {
     padding-right: 15px;
 }
 
+.log-out img{
+    height: 30px;
+}
+
 ul li {
     height: 56px;
     margin: 0 auto;
@@ -67,7 +71,7 @@ ul li {
 
 .icon-kandidat h1 {
     font-family: 'Bebas Neue', cursive;
-    color: #00538e;
+    color: #1d74b3;
 }
 
 .icon-kandidat .who {
@@ -676,8 +680,8 @@ section.update-data-pemilih {
         font-size: 60px;
         margin-bottom: 1vh;
     }
-    .login-form {
-        width: 40vh;
+    .login-form input{
+        width: 380px;
     }
     .menu-pilihan img {
         height: 45%;
@@ -908,9 +912,12 @@ section.update-data-pemilih {
     }
     .login-form {
         max-width: 100%;
-        width: 300px;
         padding: 10px;
         margin: auto;
+    }
+
+    .login-form input{
+        width: 380px;
     }
     .icon-kandidat {
         margin-top: -1vh;
