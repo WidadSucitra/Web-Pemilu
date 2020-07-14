@@ -7,12 +7,11 @@ body {
 
 .navbar {
     background-color: #1d74b3;
-    color: white;    
-
+    color: white;
 }
 
 .navbar-header img {
-    height: 40px; 
+    height: 40px;
     margin-top: 5px;
     margin-left: -15px;
     padding-bottom: 8px;
@@ -41,6 +40,7 @@ ul li {
     padding: 0 0 0 16px;
 }
 
+
 /* FORM REGIS */
 
 .regis-form .container {
@@ -55,37 +55,41 @@ ul li {
 
 .icon-kandidat {
     margin-top: -1vh;
+    width: 280px;
+    margin-left: -30px;
 }
 
 .icon-kandidat img {
-    margin-top: 15vh;
+    margin-top: -40px;
     width: 200px;
     margin-left: 45px;
 }
 
 .icon-kandidat h1 {
-    font-family: sans-serif;
-    color: #0E5180;
+    font-family: 'Bebas Neue', cursive;
+    color: #00538e;
 }
 
 .icon-kandidat .who {
-    margin-top: 18px;
-    margin-bottom: -17vh;
-    margin-left: 60px;
-    font-size: 40px;
+    margin-left: 88px;
+    font-size: 50px;
 }
 
 .icon-kandidat .next {
-    margin-top: -80px;
-    margin-left: 130px;
-    font-size: 40px;
+    margin-top: -85px;
+    margin-left: 160px;
+    font-size: 50px;
     margin-bottom: 10vh;
 }
 
 .regis-form-group {
     margin: auto;
-    background: none; 
+    background: none;
     width: 300px;
+}
+
+.regis-form .card {
+    border: none;
 }
 
 .form-group input {
@@ -140,7 +144,6 @@ ul li {
     border-radius: 10px;
 }
 
-
 .update-data-pemilih .kotak {
     background-color: #b5b5b5;
     width: 75px;
@@ -162,7 +165,9 @@ section.update-data-pemilih {
     margin: 50px auto;
 }
 
-.ketua1 select, .ketua2 select,.update select{
+.ketua1 select,
+.ketua2 select,
+.update select {
     font-size: small;
     float: right;
     margin-right: 20px;
@@ -249,7 +254,7 @@ section.update-data-pemilih {
     cursor: pointer;
 }
 
-.menu-pilihan button:hover{
+.menu-pilihan button:hover {
     background-color: #b5b5b5;
     color: #b5b5b5;
 }
@@ -300,7 +305,7 @@ section.update-data-pemilih {
     margin: 0 10px;
 }
 
-.update .foto-update{
+.update .foto-update {
     margin: auto;
     width: fit-content
 }
@@ -340,17 +345,19 @@ section.update-data-pemilih {
     font-size: 25px;
     padding-bottom: -5vh;
     margin-top: 5px;
-
 }
+
 .kotak h3 {
     font-size: 10px;
     font-weight: bold;
 }
+
 .kotak h1,
 .kotak h3 {
     color: #fefefe;
-    text-align: center;    
+    text-align: center;
 }
+
 
 /*Menu Pemilihan Ketum*/
 
@@ -360,7 +367,7 @@ section.update-data-pemilih {
     width: 100%;
 }
 
-.pilih-ketum button{
+.pilih-ketum button {
     border: none;
     text-decoration: none;
     display: inline-block;
@@ -371,7 +378,7 @@ section.update-data-pemilih {
     border-radius: 10px;
 }
 
-.pilih-ketum button:hover{
+.pilih-ketum button:hover {
     background-color: #d4d4d4;
     color: #d4d4d4;
 }
@@ -382,7 +389,6 @@ section.update-data-pemilih {
     height: 130px;
     border-radius: 10px;
     box-sizing: border-box;
-    
 }
 
 .pilih-ketum .topik-ketum {
@@ -419,9 +425,8 @@ section.update-data-pemilih {
     margin-top: 50px;
 }
 
-.pilih-ketum .foto1 h1, 
+.pilih-ketum .foto1 h1,
 .pilih-ketum .foto2 h1 {
- 
     font-size: 60px;
     font-family: sans-serif;
     color: #1D74B3;
@@ -431,13 +436,15 @@ section.update-data-pemilih {
     margin-top: 20px;
 }
 
-.pilih-ketum button , .menu-pilihan button{
+.pilih-ketum button,
+.menu-pilihan button {
     border-color: transparent;
 }
 
-.menu-pilihan button{
+.menu-pilihan button {
     background-color: transparent;
 }
+
 
 /* FORM INPUT */
 
@@ -462,7 +469,7 @@ section.update-data-pemilih {
     margin-top: 5vh;
 }
 
-.next{
+.next {
     margin-top: 50px;
 }
 
@@ -484,7 +491,6 @@ section.update-data-pemilih {
     border-radius: 10px;
     background-color: #dddddd;
     width: 250px;
-
 }
 
 .input-form button {
@@ -496,19 +502,22 @@ section.update-data-pemilih {
     font-size: 12px;
 }
 
-.back button{
-     border-color: #00538e;
+.back button {
+    border-color: #00538e;
     border-radius: 10px;
     background-color: #00538e;
     font-size: 12px;
     float: right;
 }
-.ketude-form-group{
+
+.ketude-form-group {
     width: 300px;
 }
 
+
 /* Halaman Utama Admin */
-.halaman-utama-admin .container{
+
+.halaman-utama-admin .container {
     justify-content: center;
     text-align: center;
     margin-bottom: 10vh;
@@ -516,7 +525,7 @@ section.update-data-pemilih {
     width: 100%;
 }
 
-.halaman-utama-admin .btn{
+.halaman-utama-admin .btn {
     width: 300px;
     height: 70px;
     border-radius: 15px;
@@ -530,28 +539,30 @@ section.update-data-pemilih {
     transition-duration: 0.4s;
     cursor: pointer;
 }
-.halaman-utama-admin .btn:hover{
+
+.halaman-utama-admin .btn:hover {
     background-color: #0095ff;
     border-color: #0095ff;
 }
 
-.update-pemilih .container{
+.update-pemilih .container {
     background-color: whitesmoke;
     padding: 30px 20px;
 }
 
-.update-pemilih .tabel-pemilih{
+.update-pemilih .tabel-pemilih {
     margin: 5% auto;
     padding: 3%;
     background-color: white;
-
 }
 
-.update-pemilih th:nth-child(1), .update-pemilih td:nth-child(1){
+.update-pemilih th:nth-child(1),
+.update-pemilih td:nth-child(1) {
     width: 1%;
 }
 
-.update-pemilih th, .update-pemilih td{
+.update-pemilih th,
+.update-pemilih td {
     border: 1px solid lightgrey;
     font-size: 7px;
     width: 3%;
@@ -564,14 +575,13 @@ section.update-data-pemilih {
     background-color: #0095ff
 }
 
-.update-pemilih tr:nth-child(odd){ 
+.update-pemilih tr:nth-child(odd) {
     background-color: whitesmoke;
 }
 
-.update-pemilih tr{
+.update-pemilih tr {
     background-color: white;
 }
-
 
 @media screen and (min-width: 760px) and (max-width: 1000px) {
     .navbar-header a {
@@ -585,7 +595,7 @@ section.update-data-pemilih {
     .update-data-pemilih h2,
     .selamat h2,
     .update h2,
-    .update-pemilih h2{
+    .update-pemilih h2 {
         font-size: 25px;
     }
     .selamat p,
@@ -626,17 +636,17 @@ section.update-data-pemilih {
         font-size: 20px;
         margin-top: 5vh;
         text-align: center;
+        margin-left: 30px;
     }
     .regis-form-group {
         justify-content: center;
         padding: 1px;
-        width: 600px;
+        width: 400px;
         border-color: #00538e;
     }
-
-    .form-group{
-        width: 400px;
-        margin-left: 100px;
+    .form-group {
+        width: 350px;
+        margin-left: 50px;
     }
     .form-group label {
         font-size: 17px;
@@ -645,31 +655,25 @@ section.update-data-pemilih {
         font-size: 17px;
         background-color: #00538e;
         margin-bottom: 1vh;
-        margin-left: 100px;
+        margin-left: 50px;
     }
-    
-    .icon-kandidat{
-        width: 400px;
+    .icon-kandidat {
+        margin-top: 20px;
+        margin-right: 0;
     }
     .icon-kandidat img {
-        width: 250px;
-        margin-top: 8vh;
-        justify-content: center;
-    }
-    .icon-kandidat h1 {
-        font-family: sans-serif;
-        color: #0E5180;
+        width: 200px;
+        margin-top: -50px;
     }
     .icon-kandidat .who {
-        margin-left: 90px;
-        margin-bottom: -9vh;
+        margin-left: 75px;
         margin-top: 6vh;
-        font-size: 45px;
+        font-size: 60px;
     }
     .icon-kandidat .next {
-        margin-top: -95px;
-        margin-left: 180px;
-        font-size: 45px;
+        margin-top: -90px;
+        margin-left: 145px;
+        font-size: 60px;
         margin-bottom: 1vh;
     }
     .login-form {
@@ -682,7 +686,7 @@ section.update-data-pemilih {
     .menu-pilihan p {
         font-size: 15px;
     }
-    .pilih-ketum button{
+    .pilih-ketum button {
         border-radius: 20px;
     }
     .pilih-ketum .foto1,
@@ -708,13 +712,12 @@ section.update-data-pemilih {
         font-size: 13px;
         margin-top: 93px;
     }
-    .pilih-ketum .foto1 h1, 
+    .pilih-ketum .foto1 h1,
     .pilih-ketum .foto2 h1 {
         font-size: 150px;
         margin-left: 32px;
         margin-top: 4px;
     }
-    
     .input-form h1 {
         font-size: 25px;
         text-align: center;
@@ -723,7 +726,7 @@ section.update-data-pemilih {
         text-align: center;
         font-size: 15px;
     }
-    .next{
+    .next {
         font-size: 15px;
     }
     .input-form .form-group {
@@ -753,17 +756,18 @@ section.update-data-pemilih {
         float: right;
         margin-top: 8vh;
     }
-    .ketude-form-group{
+    .ketude-form-group {
         width: 400px;
     }
-     .halaman-utama-admin .btn{
+    .halaman-utama-admin .btn {
         width: 450px;
         height: 100px;
         border-radius: 20px;
         font-size: 22px;
         margin-top: 10vh;
     }
-    .update-pemilih th, .update-pemilih td{
+    .update-pemilih th,
+    .update-pemilih td {
         font-size: small;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -771,7 +775,6 @@ section.update-data-pemilih {
 }
 
 @media screen and (min-width: 1001px) {
-
     .navbar {
         padding: 0 0 0 16px;
     }
@@ -807,7 +810,6 @@ section.update-data-pemilih {
         font-size: 40px;
         padding-bottom: -5vh;
         margin-top: 25px;
-
     }
     .kotak h3 {
         font-size: 10px;
@@ -816,7 +818,7 @@ section.update-data-pemilih {
     .kotak h1,
     .kotak h3 {
         color: #fefefe;
-        text-align: center;    
+        text-align: center;
     }
     .menu-pilihan .foto1,
     .menu-pilihan .foto2 {
@@ -829,7 +831,7 @@ section.update-data-pemilih {
     .menu-pilihan p {
         font-size: 20px;
     }
-    .pilih-ketum button{
+    .pilih-ketum button {
         border-radius: 30px;
     }
     .pilih-ketum .foto1,
@@ -855,7 +857,7 @@ section.update-data-pemilih {
         font-size: 20px;
         margin-top: 125px;
     }
-    .pilih-ketum .foto1 h1, 
+    .pilih-ketum .foto1 h1,
     .pilih-ketum .foto2 h1 {
         font-size: 220px;
         margin-left: 40px;
@@ -891,7 +893,7 @@ section.update-data-pemilih {
     .update .foto-update,
     .update .chart-update {
         display: inline-block;
-    }    
+    }
     .update .foto-update {
         width: 20%;
         margin: 0;
@@ -910,42 +912,46 @@ section.update-data-pemilih {
         padding: 10px;
         margin: auto;
     }
-    .icon-kandidat{
+    .icon-kandidat {
         margin-top: -1vh;
+        margin-right: 0;
+        width: 480px;
     }
     .icon-kandidat img {
         margin-right: 19vh;
         width: 250px;
+        margin-top: -55px;
     }
     .icon-kandidat .who {
-        font-size: 45px;
-        margin-left: 75px;
+        font-size: 75px;
+        margin-left: 80px;
     }
     .icon-kandidat .next {
-        margin-top: -85px;
-        margin-left: 160px;
-        font-size: 45px;
+        margin-top: -115px;
+        margin-left: 170px;
+        font-size: 75px;
         margin-bottom: 5vh;
     }
+    .regis-form .card {
+        padding: 0;
+    }
     .regis-form-group {
-        margin-left: 20vh;
+        margin-right: 50px;
         width: 300px;
     }
-
-    .form-group{
-        width: 55vh;
+    .form-group {
+        width: 380px;
     }
     .regis-form-group legend {
         font-size: 20px;
         margin-left: 40px;
     }
-    
     .input-form h1 {
         font-size: 30px;
         margin-top: 15vh;
         text-align: center;
     }
-    .card{
+    .card {
         padding: 50px;
     }
     .input-form h4 {
@@ -953,7 +959,7 @@ section.update-data-pemilih {
         font-size: 20px;
         margin-top: 6vh;
     }
-    .next{
+    .next {
         font-size: 20px;
     }
     .input-form .form-group {
@@ -963,7 +969,6 @@ section.update-data-pemilih {
     .input-form label {
         font-size: 15px;
     }
-
     .input-form input {
         width: 300px;
         border-radius: 10px;
@@ -982,14 +987,15 @@ section.update-data-pemilih {
         float: right;
         font-size: 15px;
     }
-    .halaman-utama-admin .btn{
+    .halaman-utama-admin .btn {
         width: 600px;
         height: 125px;
         border-radius: 20px;
         font-size: 25px;
         margin-top: 10vh;
     }
-    .update-pemilih th, .update-pemilih td{
+    .update-pemilih th,
+    .update-pemilih td {
         font-size: smaller;
         padding-top: 15px;
         padding-bottom: 15px;
