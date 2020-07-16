@@ -2,30 +2,29 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8">
     <title>WEB MMIF</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css'>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
     <!-- NAVBAR -->
-   <nav class="navbar">
-    <div class="navbar navbar-expand-lg fixed-top">
-        <div class="navbar-header">
-            <img src="img/if.png" alt="">
-            <a href="#"></a>PEMILU RAYA MAHASISWA INFORMATIKA</a>
-        </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar">
+        <div class="navbar navbar-expand-lg fixed-top">
+            <div class="navbar-header">
+                <img src="img/if.png" alt="">
+                <a href="#"></a>PEMILU RAYA MAHASISWA INFORMATIKA</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button> 
-    </div>
-  </nav>
+        </button>
+
+        </div>
+    </nav>
 
     <div class="login-container d-flex align-items-center justify-content-center">
         <form class="login-form text center">
@@ -38,10 +37,23 @@
                 <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
             <center>
-                <button type="submit" class="btn btn-primary text center">Login</button>
+                <button type="button" class="btn btn-primary btn-lg" id="load" data-loading-text="<i class='fa fa-spinner fa-spin '></i>">Login</button>
             </center>
         </form>
     </div>
+
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js'></script>
+    <script>
+        $('.btn').on('click', function() {
+            var $this = $(this);
+            $this.button('loading');
+            setTimeout(function() {
+                $this.button('reset');
+            }, 4000);
+        });
+    </script>
 </body>
 
 </html>
