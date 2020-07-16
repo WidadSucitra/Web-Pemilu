@@ -1,59 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-
-    <title>WEB MMIF</title>
+    <style type="text/css">
+        #load {
+            margin-top: -100px;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            text-indent: 100%;
+            background: #e0e0e0 url('img/loading.gif') no-repeat center;
+            z-index: 999;
+            opacity: 0.3;
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
-  <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-    <div class="navbar-header">
-        <img src="img/if.png" alt="">
-        <a href="#"></a>PEMILU RAYA MAHASISWA INFORMATIKA</a>
-    </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-            <li class="name nav-item"><p>Nama Pemilih</p></li>
-            <li class="log-out nav-item"><a href="login.html"><img src="img/Web.png"></a></li>
-        </ul>
-    </div>
-</nav>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="navbar-header">
+            <img src="img/if.png" alt="">
+            <a href="#"></a>PEMILU RAYA MAHASISWA INFORMATIKA</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="name nav-item">
+                    <p>Nama Pemilih</p>
+                </li>
+                <li class="log-out nav-item">
+                    <a href="login.html"><img src="img/Web.png"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    
-      <!-- MENU PILIHAN -->
-      <section class="pilih-ketum">
+    <div id="load"></div>
+    <div class="container" onclick="loading()">
+        <section class="pilih-ketum">
             <div class="row justify-content-center">
-                <button onclick="window.location.href='halamanutamapemilih.html'"> 
-                    <div class="foto1">
-                        <h1>1</h1>
-                        <img src="img/Gogog.png" alt="">
-                        <p>NAMA CALON</p>
-                    </div>
+                <button onclick="window.location.href='halamanutamapemilih.html'" class="btn btn-primary"> 
+                <div class="foto1">
+                    <h1>1</h1>
+                    <img src="img/Gogog.png" alt="">
+                    <p>NAMA CALON</p>
+                </div>
                 </button>
                 <div class="topik-ketum">
                     <p>CALON<br>KETUA DEWAN<br>MMIF FT-UH</p>
                 </div>
-                <button onclick="window.location.href='halamanutamapemilih.html'">
-                    <div class="foto2">
-                        <h1>2</h1>
-                        <img src="img/Gogog.png" alt="">
-                        <p>NAMA CALON</p>
-                    </div>
-                </button>
+                <button onclick="window.location.href='halamanutamapemilih.html'" class="btn btn-primary">
+                        <div class="foto2">
+                            <h1>2</h1>
+                            <img src="img/Gogog.png" alt="">
+                            <p>NAMA CALON</p>
+                        </div>
+                    </button>
             </div>
-    </section>
+        </section>
+    </div>
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js'></script>
+
+    <script>
+        function loading() {
+            document.getElementById('load').style.display = 'block';
+        }
+    </script>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -62,4 +87,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 </body>
+
 </html>
