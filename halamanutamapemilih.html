@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -7,7 +8,12 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
 
     <link rel="stylesheet" href="style.css">
 
@@ -15,50 +21,54 @@
 </head>
 
 <body>
-  <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-    <div class="navbar-header">
-        <img src="img/if.png" alt="">
-        <a href="#"></a>PEMILU RAYA MAHASISWA INFORMATIKA</a>
-    </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="navbar-header">
+            <img src="img/if.png" alt="">
+            <a href="#"></a>PEMILU RAYA MAHASISWA INFORMATIKA</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-            <li class="name nav-item"><p>Nama Pemilih</p></li>
-            <li class="log-out nav-item"><a href="login.html"><img src="img/Web.png"></a></li>
-        </ul>
-    </div>
-</nav>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="name nav-item">
+                    <p>Nama Pemilih</p>
+                </li>
+                <li class="log-out nav-item">
+                    <a href="login.html"><img src="img/Web.png"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    
-    <!-- Menu Pilihan --> 
+
+    <!-- Menu Pilihan -->
     <section class="menu-pilihan">
-      <div class="row justify-content-center">
-        <button onclick="window.location.href='pemilihanketum.html'">
+        <div class="row justify-content-center">
+            <button onclick="window.location.href='pemilihanketum.html'" class="btn btn-primary"> 
           <div class="foto1">
             <img src="img/Gogog.png" alt="">
             <p>CALON<br>KETUA UMUM<br>HMIF FT-UH</p>
           </div>
         </button>
-        <button onclick="window.location.href='pemilihanketude.html'">
+            <button onclick="window.location.href='pemilihanketude.html'" class="btn btn-primary">
           <div class="foto2">
             <img src="img/Gogog.png" alt="">
             <p>CALON<br>KETUA DEWAN<br>MMIF FT-UH</p>
           </div>
         </button>
-      </div>
-    </section> 
+        </div>
+    </section>
 
     <!-- UPDATE DATA PEMILIH -->
     <section class="update-data-pemilih">
-      <div class="container">
-          <div class="col text-center">
-            <P>UPDATE DATA PEMILIH</P>
-          </div>
-          <div class="row justify-content-center">
-              <div class="kotak ">
+        <div class="container">
+            <div class="col text-center">
+                <P>UPDATE DATA PEMILIH</P>
+            </div>
+            <div class="row justify-content-center">
+                <div class="kotak ">
                     <h1>355</h1>
                     <h3>Jumlah Pemilih Tetap</h3>
                 </div>
@@ -70,86 +80,87 @@
                     <h1>100</h1>
                     <h3>Belum Memilih</h3>
                 </div>
-          </div>
-      </div>
-  </section>
-  
-  <!-- Perolehan Suara Sementara Calon Ketua Umum HMIF-FT-UH  -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Perolehan Suara Sementara Calon Ketua Umum HMIF-FT-UH  -->
     <section class="update">
         <div class="container">
-          <div class="row">
-              <div class="col text-center mb-4">
-                  <h2>Update Perolehan Suara Sementara</h2>
-                  <h2>Calon Ketua Umum HMIF-FT-UH Periode 2020/2021</h2>
-              </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="foto-update">
-              <div class="foto1">
-                <h1>1</h1>
-                <img src="img/Gogog.png" alt="">
-                <p>NAMA CALON</p>
-              </div>
-              <div class="foto2">
-                <h1>2</h1>
-                <img src="img/Gogog.png" alt="">
-                <p>NAMA CALON</p>
-              </div>
+            <div class="row">
+                <div class="col text-center mb-4">
+                    <h2>Update Perolehan Suara Sementara</h2>
+                    <h2>Calon Ketua Umum HMIF-FT-UH Periode 2020/2021</h2>
+                </div>
             </div>
-            <div class="chart-update">
-              <form action="">
-                <select name="" id="">
+            <div class="row justify-content-center">
+                <div class="foto-update">
+                    <div class="foto1">
+                        <h1>1</h1>
+                        <img src="img/Gogog.png" alt="">
+                        <p>NAMA CALON</p>
+                    </div>
+                    <div class="foto2">
+                        <h1>2</h1>
+                        <img src="img/Gogog.png" alt="">
+                        <p>NAMA CALON</p>
+                    </div>
+                </div>
+                <div class="chart-update">
+                    <form action="">
+                        <select name="" id="">
                   <option value="" disabled selected hidden>Hari</option>
                   <option value="">Senin</option>
                   <option value="">Selasa</option>
                 </select>
-              </form>
-              <canvas id="update1"></canvas>
+                    </form>
+                    <div id="graf"></div>
+                </div>
             </div>
-          </div>
         </div>
     </section>
 
-  <!-- Perolehan Suara Sementara Calon Ketua Umum DMIF-FT-UH  -->
-  <section class="update mb-5 pb-5">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center mb-4">
-            <h2>Update Perolehan Suara Sementara</h2>
-            <h2>Calon Ketua Umum DMIF-FT-UH Periode 2020/2021</h2>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="foto-update">
-          <div class="foto1">
-            <h1>1</h1>
-            <img src="img/Gogog.png" alt="">
-            <p>NAMA CALON</p>
-          </div>
-          <div class="foto2">
-            <h1>2</h1>
-            <img src="img/Gogog.png" alt="">
-            <p>NAMA CALON</p>
-          </div>
-        </div>
-        <div class="chart-update">
-          <form action="">
-            <select name="" id="">
+    <!-- Perolehan Suara Sementara Calon Ketua Umum DMIF-FT-UH  -->
+
+    <section class="update mb-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center mb-4">
+                    <h2>Update Perolehan Suara Sementara</h2>
+                    <h2>Calon Ketua Umum DMIF-FT-UH Periode 2020/2021</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="foto-update">
+                    <div class="foto1">
+                        <h1>1</h1>
+                        <img src="img/Gogog.png" alt="">
+                        <p>NAMA CALON</p>
+                    </div>
+                    <div class="foto2">
+                        <h1>2</h1>
+                        <img src="img/Gogog.png" alt="">
+                        <p>NAMA CALON</p>
+                    </div>
+                </div>
+                <div class="chart-update">
+                    <form action="">
+                        <select name="" id="">
               <option value="" disabled selected hidden>Hari</option>
               <option value="">Senin</option>
               <option value="">Selasa</option>
             </select>
-          </form>
-          <canvas id="update2"></canvas>
+                    </form>
+                    <div id="container"></div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
+    <!-- Chart.js -->
 
-  <!-- Chart.js -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-  <script src="update.js"></script>
+    <script src="graf.js"></script>
+
 
 
     <!-- Optional JavaScript -->
@@ -159,4 +170,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 </body>
+
 </html>
