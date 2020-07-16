@@ -682,11 +682,12 @@ section.update-data-pemilih {
     .form-group label {
         font-size: 17px;
     }
-    .regis-form-group button {
+    .regis-form button {
         font-size: 17px;
         background-color: #00538e;
         margin-bottom: 1vh;
         margin-left: 50px;
+        width: 110px;
     }
     .icon-kandidat {
         margin-top: 20px;
