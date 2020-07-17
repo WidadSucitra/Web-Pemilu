@@ -19,8 +19,6 @@ body {
 }
 
 .button {
-    background-color: #008cba;
-    /* Green */
     border: none;
     color: white;
     padding: 10px;
@@ -32,9 +30,10 @@ body {
 }
 
 .input-form .button,
-.button1 {
+.input-form .button1 {
     width: 100px;
     padding: 10px;
+    margin-left: 25px;
 }
 
 .button:disabled {
@@ -553,6 +552,7 @@ section.update-data-pemilih {
     background-color: #00538e;
     margin-bottom: 5vh;
     font-size: 12px;
+    margin-left: 25px;
 }
 
 .input-form .log {
@@ -814,6 +814,10 @@ section.update-data-pemilih {
         font-size: 15px;
         float: left;
     }
+    .input-form .button,
+    .input-form .button1 {
+        margin-left: 10px;
+    }
     .back button {
         font-size: 15px;
         float: right;
@@ -1071,5 +1075,9 @@ section.update-data-pemilih {
         font-size: smaller;
         padding-top: 15px;
         padding-bottom: 15px;
+    }
+    .input-form .button,
+    .input-form .button1 {
+        margin-left: 1px;
     }
 }
