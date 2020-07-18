@@ -44,6 +44,33 @@ body {
     display: none;
 }
 
+.loader {
+    display: none;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.loading {
+    border: 2px solid #ccc;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 5px solid #efefef;
+    border-top: 5px solid #1d74b3;
+    animation: spin 1s infinite ease-in;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 
 /* STYLE NAVBAR */
 
@@ -1073,8 +1100,7 @@ section.update-data-pemilih {
         float: right;
         font-size: 15px;
     }
-
-    .back1 button{
+    .back1 button {
         font-size: 15px;
     }
     .halaman-utama-admin .btn {
