@@ -568,6 +568,13 @@ section.update-data-pemilih {
     float: right;
 }
 
+.back1 button {
+    border-color: #00538e;
+    border-radius: 10px;
+    background-color: #00538e;
+    font-size: 12px;
+}
+
 .ketude-form-group {
     width: 300px;
 }
@@ -823,6 +830,9 @@ section.update-data-pemilih {
         float: right;
         margin-top: 8vh;
     }
+    .back1 button {
+        font-size: 15px;
+    }
     .ketude-form-group {
         width: 400px;
     }
@@ -1061,6 +1071,10 @@ section.update-data-pemilih {
     }
     .back button {
         float: right;
+        font-size: 15px;
+    }
+
+    .back1 button{
         font-size: 15px;
     }
     .halaman-utama-admin .btn {
