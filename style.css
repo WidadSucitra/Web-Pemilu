@@ -2,22 +2,6 @@ body {
     background-color: #fefefe;
 }
 
-.highcharts-figure,
-.highcharts-data-table table {
-    min-width: 310px;
-    max-width: 800px;
-    margin: 1em auto;
-}
-
-#sliders td input[type=range] {
-    display: inline;
-}
-
-#sliders td {
-    padding-right: 1em;
-    white-space: nowrap;
-}
-
 .button {
     border: none;
     color: white;
@@ -309,16 +293,18 @@ section.update-data-pemilih {
 /*Menu Pemilihan Utama*/
 
 .menu-pilihan {
+    margin-top: 50px;
+}
+
+.menu-pilihan form {
     margin-bottom: 0px;
-    margin-top: 3%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    width: 100%;
+    margin-top: 0;
+    width: 50%;
     padding: 0;
 }
 
-.menu-pilihan button {
-    width: 50%;
+.menu-pilihan form button {
+    width: 100%;
     height: 400px;
     border-radius: 5px;
     box-sizing: border-box;
@@ -898,11 +884,15 @@ section.update-data-pemilih {
     .navbar .log-in {
         background-color: #0063aa;
     }
+    .add {
+        background-color: #095b96;
+    }
     .log-out {
         background-color: #00538e;
     }
     .name,
     .log-out,
+    .add,
     .navbar .log-in {
         padding: 15px 25px;
     }
