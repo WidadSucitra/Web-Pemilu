@@ -17,7 +17,7 @@ body {
     background-color: #00538e;
     font-size: 15px;
     margin-bottom: 30px;
-    margin-left: 10px;
+    margin-left: 30px;
     border-color: #00538e;
     border-radius: 10px;
     width: 100px;
@@ -447,6 +447,7 @@ section.update-data-pemilih {
     background-color: #b5b5b5;
     color: #b5b5b5;
     border-radius: 10px;
+    width: 100px;
 }
 
 .pilih-ketum button:hover {
@@ -460,6 +461,7 @@ section.update-data-pemilih {
     height: 130px;
     border-radius: 10px;
     box-sizing: border-box;
+    margin-left: -28px;
 }
 
 .pilih-ketum .topik-ketum {
@@ -777,12 +779,14 @@ section.update-data-pemilih {
     }
     .pilih-ketum button {
         border-radius: 20px;
+        width: 250px;
     }
     .pilih-ketum .foto1,
     .pilih-ketum .foto2 {
         width: 250px;
         height: 250px;
         border-radius: 20px;
+        margin-left: -4px;
     }
     .pilih-ketum .topik-ketum {
         width: 150px;
@@ -941,6 +945,10 @@ section.update-data-pemilih {
     }
     .pilih-ketum button {
         border-radius: 30px;
+        width: 330px;
+    }
+    .pilih-ketum .foto2 {
+        margin-left: 0;
     }
     .pilih-ketum .foto1,
     .pilih-ketum .foto2 {
@@ -1126,6 +1134,6 @@ section.update-data-pemilih {
     }
     .submit {
         margin-bottom: 30px;
-        margin-left: 40px;
+        margin-left: auto;
     }
 }
