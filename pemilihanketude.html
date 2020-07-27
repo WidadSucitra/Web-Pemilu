@@ -8,7 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    
+
+  
+
 </head>
 
 <body>
@@ -39,35 +41,31 @@
         <section class="pilih-ketum">
             <div class="row justify-content-center">
 
-                <button type="submit" class="btn btn-primary" onclick="spinner()">
-                <div class="loader">
-                    <div class="loading"></div>
-                    </div>
-                        <a href="halamanutamapemilih.html">
-                            <div class="foto1">
-                            <h1>1</h1>
-                            <img src="img/Gogog.png" alt="">
-                            <p>NAMA CALON</p>
-                            </div>
-                        </a> 
+               <button type="submit" class="btn btn-primary">
+                    <div class="foto1">
+                        <h1>1</h1>
+                        <img src="img/Gogog.png" alt="">
+                        <p>NAMA CALON</p>
+                    </div>       
                 </button>
                 <div class="topik-ketum">
                     <p>CALON<br>KETUA DEWAN<br>HMIF FT-UH</p>
                 </div>
-                <button type="submit" class="btn btn-primary" onclick="spinner()">
-                    <div class="loader">
-                        <div class="loading"></div>
-                    </div>
-                            <a href="halamanutamapemilih.html">
-                                <div class="foto2">
-                                <h1>2</h1>
-                                <img src="img/Gogog.png" alt="">
-                                <p>NAMA CALON</p>
-                                </div>
-                            </a> 
+                <button type="submit" class="btn btn-primary">
+                    <div class="foto2">
+                        <h1>2</h1>
+                        <img src="img/Gogog.png" alt="">
+                        <p>NAMA CALON</p>
+                    </div>       
                 </button>
             </div>
+            
         </section>
+        <a href="halamanutamapemilih.html">
+        <button type="submit" class="submit btn btn-primary" onclick="spinner()">Submit</button></a>
+        <div class="loader">
+            <div class="loading"></div>
+        </div>    
     </div>
 
 
@@ -81,10 +79,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
-        function spinner() {
-            document.getElementsByClassName("loader")[0].style.display = "block";
-        }
-    </script>
+    function spinner() {
+        document.getElementsByClassName("loader")[0].style.display = "block";
+    }
+    </script>   
 
 </body>
 
