@@ -430,6 +430,9 @@ section.update-data-pemilih {
 
 /*Menu Pemilihan Ketum*/
 
+
+/*Menu Pemilihan Ketum*/
+
 .pilih-ketum {
     margin-bottom: 100px;
     margin-top: 110px;
@@ -459,7 +462,7 @@ section.update-data-pemilih {
     height: 130px;
     border-radius: 10px;
     box-sizing: border-box;
-    margin-left: -28px;
+    margin-left: -26px;
 }
 
 .pilih-ketum .topik-ketum {
@@ -777,14 +780,14 @@ section.update-data-pemilih {
     }
     .pilih-ketum button {
         border-radius: 20px;
-        width: 250px;
+        width: 270px;
     }
     .pilih-ketum .foto1,
     .pilih-ketum .foto2 {
         width: 250px;
         height: 250px;
         border-radius: 20px;
-        margin-left: -4px;
+        margin-left: 0;
     }
     .pilih-ketum .topik-ketum {
         width: 150px;
@@ -940,9 +943,6 @@ section.update-data-pemilih {
     .pilih-ketum button {
         border-radius: 30px;
         width: 330px;
-    }
-    .pilih-ketum .foto2 {
-        margin-left: 0;
     }
     .pilih-ketum .foto1,
     .pilih-ketum .foto2 {
