@@ -16,8 +16,6 @@ body {
 .submit {
     background-color: #00538e;
     font-size: 15px;
-    margin-bottom: 30px;
-    margin-left: 30px;
     border-color: #00538e;
     border-radius: 10px;
     width: 100px;
@@ -876,10 +874,6 @@ section.update-data-pemilih {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .submit {
-        margin-bottom: 30px;
-        margin-left: 0;
-    }
 }
 
 @media screen and (min-width: 1001px) {
@@ -1131,9 +1125,5 @@ section.update-data-pemilih {
     .input-form .button,
     .input-form .button1 {
         margin-left: 1px;
-    }
-    .submit {
-        margin-bottom: 30px;
-        margin-left: auto;
     }
 }
