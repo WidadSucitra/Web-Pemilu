@@ -45,28 +45,28 @@
                     <div class="loader">
                         <div class="loading"></div>
                         </div>
-                            <a href="halamanutamapemilih.html">
+                            
                                 <div class="foto1">
                                 <h1>1</h1>
                                 <img src="img/Gogog.png" alt="">
                                 <p>NAMA CALON</p>
                                 </div>
-                            </a>       
+                                  
                 </button>
                 <div class="topik-ketum">
                     <p>CALON<br>KETUA UMUM<br>HMIF FT-UH</p>
                 </div>
-                <button type="submit" class="btn btn-primary" onclick="spinner()">
+                <button type="submit" class="btn btn-primary" onclick="spinner1()">
                     <div class="loader">
                         <div class="loading"></div>
                     </div>
-                            <a href="halamanutamapemilih.html">
+                            
                                 <div class="foto2">
                                 <h1>2</h1>
                                 <img src="img/Gogog.png" alt="">
                                 <p>NAMA CALON</p>
                                 </div>
-                            </a>       
+                                   
                 </button>
             </div>
         </section>
@@ -83,11 +83,30 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
-        setTimeout (function() {
+        setTimeout(function() {
             document.getElementsByClassName("loader")[0].style.display = "none";
-            }) ;
+
+        });
+
         function spinner() {
-            document.getElementsByClassName("loader")[0].style.display = "block";
+            var yakin = confirm("Apakah anda telah yakin memilih Kandidat Ketua Umum 1? ");
+            if (yakin) {
+                window.location = 'halamanutamapemilih.html';
+                document.getElementsByClassName("loader")[0].style.display = "block";
+            } else {
+                window.location = 'pemilihanketum.html';
+            }
+        }
+
+
+        function spinner1() {
+            var yakin = confirm("Apakah anda telah yakin memilih Kandidat Ketua Umum 2? ");
+            if (yakin) {
+                window.location = 'halamanutamapemilih.html';
+                document.getElementsByClassName("loader")[0].style.display = "block";
+            } else {
+                window.location = 'pemilihanketum.html';
+            }
         }
     </script>
 
