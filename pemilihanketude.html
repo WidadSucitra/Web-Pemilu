@@ -82,19 +82,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
-        setTimeout(function spinner() {
+        
+     setTimeout(function() {
+
             document.getElementsByClassName("loader")[0].style.display = "none";
 
         });
-
         function spinner() {
             var yakin = confirm("Apakah anda telah yakin memilih Kandidat Ketua Dewan 1? ");
             if (yakin) {
                 window.location = 'halamanutamapemilih.html';
                 document.getElementsByClassName("loader")[0].style.display = "block";
-            } else {
-                window.location = 'pemilihanketude.html';
-            }
+            } 
         }
 
 
