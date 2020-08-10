@@ -110,11 +110,33 @@
                         <button class="button1 btn btn-primary">
                             <i class="loading-icon1 fa fa-spinner fa-spin hide"></i>
                             <span class="btn-txt1">Submit</span>
-                        </button>
-                        <a href="admin.html" class="back"><button type="submit " class=" btn btn-primary ">Back to Home</button></a>
+                        </button>    
                     </div>
+                    
                 </div>
             </div>
+
+            <div class="row justify-content-center">
+                <div class="col">
+                    <div class="card">  
+                    <form>
+                        <h4 class="font-weight-bold ">INPUT TANGGAL MULAI<br>PEMUNGUTAN SUARA</h4>
+                        <div class="form-group-date">
+                            <label for="exampleInputDate ">Tanggal</label>
+                            <input type="text" class="form-control " id="exampleInputDate " placeholder="dd/mm/yyyy">     
+                        </div> 
+                        <div class="form-group-date">
+                            <label for="exampleInputDate ">Jam</label>
+                            <input type="text" class="form-control " id="exampleInputDate " placeholder="hh:mm:ss">     
+                        </div>    
+                    </form>
+                    <button class="button2 btn btn-primary">
+                        <i class="loading-icon2 fa fa-spinner fa-spin hide"></i>
+                        <span class="btn-txt2">Submit</span>
+                    </button>
+                </div>
+                <a href="admin.html" class="back"><button type="submit " class=" btn btn-primary ">Back to Home</button></a>
+            </div>      
         </div>
     </section>
 
@@ -145,6 +167,20 @@
                     $(".loading-icon1").addClass("hide");
                     $(".button1").attr("disabled", false);
                     $(".btn-txt1").text("Submit");
+                }, 3000);
+            });
+        });
+
+         $(document).ready(function() {
+            $(".button2").on("click", function() {
+                $(".loading-icon2").removeClass("hide");
+                $(".button2").attr("disabled", true);
+                $(".btn-txt2").text("");
+
+                setTimeout(function() {
+                    $(".loading-icon2").addClass("hide");
+                    $(".button2").attr("disabled", false);
+                    $(".btn-txt2").text("Submit");
                 }, 3000);
             });
         });
