@@ -27,10 +27,10 @@ body {
     padding: 10px;
     margin-left: 25px;
 }
+
 .input-form .button2 {
     width: 100px;
     padding: 10px;
-    
 }
 
 .button:disabled {
@@ -369,13 +369,13 @@ section.update-data-pemilih {
 
 .update .foto1,
 .update .foto2 {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 15px;
     box-sizing: border-box;
     padding-top: 5px;
     display: inline-block;
-    margin: 0 10px;
+    margin: 5px auto;
 }
 
 .update .foto-update {
@@ -411,7 +411,7 @@ section.update-data-pemilih {
     font-family: sans-serif;
     margin-left: 9px;
     margin-top: -9px;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .kotak h1 {
@@ -575,7 +575,7 @@ section.update-data-pemilih {
     width: 250px;
 }
 
-.form-group-date input{
+.form-group-date input {
     width: 250px;
 }
 
@@ -586,7 +586,6 @@ section.update-data-pemilih {
     background-color: #00538e;
     margin-bottom: 5vh;
     font-size: 12px;
-    
 }
 
 .input-form .log {
@@ -717,7 +716,7 @@ section.update-data-pemilih {
     }
     .selamat p,
     .update p {
-        font-size: 10px;
+        font-size: 8px;
     }
     .selamat .foto1,
     .selamat .foto2,
@@ -740,11 +739,13 @@ section.update-data-pemilih {
     }
     .update .foto1,
     .update .foto2 {
-        width: 100px;
-        height: 100px;
-        display: block;
-        padding-top: 10px;
-        margin: 20px auto;
+        width: 80px;
+        height: 80px;
+        border-radius: 15px;
+        box-sizing: border-box;
+        padding-top: 5px;
+        display: inline-block;
+        margin: 5px 10px;
     }
     .regis-form {
         margin-bottom: -7vh;
@@ -1025,8 +1026,11 @@ section.update-data-pemilih {
         width: 150px;
         height: 150px;
         padding-top: 10px;
-        display: block;
         margin: 20px auto;
+        box-sizing: border-box;
+        display: inline-block;
+        margin: 5px auto;
+        margin-bottom: 10px;
     }
     .update .foto-update,
     .update .chart-update {
@@ -1106,7 +1110,6 @@ section.update-data-pemilih {
         margin-bottom: 1rem;
         width: 400px;
     }
-
     .input-form label {
         font-size: 15px;
     }
@@ -1154,13 +1157,11 @@ section.update-data-pemilih {
         padding-bottom: 15px;
     }
     .input-form .button,
-    .input-form .button1, .input-form .button2 {
+    .input-form .button1,
+    .input-form .button2 {
         margin-left: 1px;
     }
-    
-
-    .form-group-date input{
+    .form-group-date input {
         width: 350px;
     }
-
 }
