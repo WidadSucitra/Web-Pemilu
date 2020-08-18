@@ -364,13 +364,13 @@ section.update-data-pemilih {
 .update .chart-update {
     display: block;
     margin-top: 50px;
-    width: 100%;
+    margin-bottom: 50px;
 }
 
 .update .foto1,
 .update .foto2 {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     border-radius: 15px;
     box-sizing: border-box;
     padding-top: 5px;
@@ -412,6 +412,7 @@ section.update-data-pemilih {
     margin-left: 9px;
     margin-top: -9px;
     font-size: 40px;
+    margin-bottom: 5vh;
 }
 
 .kotak h1 {
@@ -735,12 +736,12 @@ section.update-data-pemilih {
         padding-top: 40px;
     }
     .update .chart-update {
-        width: 70%;
+        width: 60%;
     }
     .update .foto1,
     .update .foto2 {
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: 100px;
         border-radius: 15px;
         box-sizing: border-box;
         padding-top: 5px;
@@ -1030,7 +1031,6 @@ section.update-data-pemilih {
         box-sizing: border-box;
         display: inline-block;
         margin: 5px auto;
-        margin-bottom: 10px;
     }
     .update .foto-update,
     .update .chart-update {
@@ -1042,7 +1042,8 @@ section.update-data-pemilih {
         padding-top: 40px;
     }
     .update .chart-update {
-        width: 70%;
+        width: 50%;
+        margin-right: 5vh;
     }
     .update .foto1 h1,
     .update .foto2 h1 {
